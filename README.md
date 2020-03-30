@@ -1,1 +1,3 @@
 # object-sharing
+
+feasibility check
