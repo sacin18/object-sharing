@@ -1,0 +1,170 @@
+request: http://localhost:9800/exec?from=alice&to=bob&amount=1&memo=m
+
+output: (successful transaction)
+{
+  "processed": {
+    "account_ram_delta": null,
+    "action_traces": [
+      {
+        "account_ram_deltas": [],
+        "act": {
+          "account": "eosio.token",
+          "authorization": [
+            {
+              "actor": "alice",
+              "permission": "active"
+            }
+          ],
+          "data": {
+            "from": "alice",
+            "memo": "m",
+            "quantity": "1.0000 SYS",
+            "to": "bob"
+          },
+          "hex_data": "0000000000855c340000000000000e3d10270000000000000453595300000000016d",
+          "name": "transfer"
+        },
+        "action_ordinal": 1,
+        "block_num": 101819,
+        "block_time": "2020-03-29T21:17:48.000",
+        "closest_unnotified_ancestor_action_ordinal": 0,
+        "console": "",
+        "context_free": false,
+        "creator_action_ordinal": 0,
+        "elapsed": 72,
+        "error_code": null,
+        "except": null,
+        "inline_traces": [
+          {
+            "account_ram_deltas": [],
+            "act": {
+              "account": "eosio.token",
+              "authorization": [
+                {
+                  "actor": "alice",
+                  "permission": "active"
+                }
+              ],
+              "data": {
+                "from": "alice",
+                "memo": "m",
+                "quantity": "1.0000 SYS",
+                "to": "bob"
+              },
+              "hex_data": "0000000000855c340000000000000e3d10270000000000000453595300000000016d",
+              "name": "transfer"
+            },
+            "action_ordinal": 2,
+            "block_num": 101819,
+            "block_time": "2020-03-29T21:17:48.000",
+            "closest_unnotified_ancestor_action_ordinal": 1,
+            "console": "",
+            "context_free": false,
+            "creator_action_ordinal": 1,
+            "elapsed": 6,
+            "error_code": null,
+            "except": null,
+            "inline_traces": [],
+            "producer_block_id": null,
+            "receipt": {
+              "abi_sequence": 1,
+              "act_digest": "3465be24ef0a2d0db32d2d09c0cbad4becc96d64a432dcb80f9ef0ccf9e19c8a",
+              "auth_sequence": [
+                [
+                  "alice",
+                  23
+                ]
+              ],
+              "code_sequence": 1,
+              "global_sequence": 101866,
+              "receiver": "alice",
+              "recv_sequence": 9
+            },
+            "receiver": "alice",
+            "trx_id": "f668f42e1e879a19241d8db9b3dd74eb243b9b3aad89ee8f18580cbda2c70813"
+          },
+          {
+            "account_ram_deltas": [],
+            "act": {
+              "account": "eosio.token",
+              "authorization": [
+                {
+                  "actor": "alice",
+                  "permission": "active"
+                }
+              ],
+              "data": {
+                "from": "alice",
+                "memo": "m",
+                "quantity": "1.0000 SYS",
+                "to": "bob"
+              },
+              "hex_data": "0000000000855c340000000000000e3d10270000000000000453595300000000016d",
+              "name": "transfer"
+            },
+            "action_ordinal": 3,
+            "block_num": 101819,
+            "block_time": "2020-03-29T21:17:48.000",
+            "closest_unnotified_ancestor_action_ordinal": 1,
+            "console": "",
+            "context_free": false,
+            "creator_action_ordinal": 1,
+            "elapsed": 6,
+            "error_code": null,
+            "except": null,
+            "inline_traces": [],
+            "producer_block_id": null,
+            "receipt": {
+              "abi_sequence": 1,
+              "act_digest": "3465be24ef0a2d0db32d2d09c0cbad4becc96d64a432dcb80f9ef0ccf9e19c8a",
+              "auth_sequence": [
+                [
+                  "alice",
+                  24
+                ]
+              ],
+              "code_sequence": 1,
+              "global_sequence": 101867,
+              "receiver": "bob",
+              "recv_sequence": 16
+            },
+            "receiver": "bob",
+            "trx_id": "f668f42e1e879a19241d8db9b3dd74eb243b9b3aad89ee8f18580cbda2c70813"
+          }
+        ],
+        "producer_block_id": null,
+        "receipt": {
+          "abi_sequence": 1,
+          "act_digest": "3465be24ef0a2d0db32d2d09c0cbad4becc96d64a432dcb80f9ef0ccf9e19c8a",
+          "auth_sequence": [
+            [
+              "alice",
+              22
+            ]
+          ],
+          "code_sequence": 1,
+          "global_sequence": 101865,
+          "receiver": "eosio.token",
+          "recv_sequence": 10
+        },
+        "receiver": "eosio.token",
+        "trx_id": "f668f42e1e879a19241d8db9b3dd74eb243b9b3aad89ee8f18580cbda2c70813"
+      }
+    ],
+    "block_num": 101819,
+    "block_time": "2020-03-29T21:17:48.000",
+    "elapsed": 194,
+    "error_code": null,
+    "except": null,
+    "id": "f668f42e1e879a19241d8db9b3dd74eb243b9b3aad89ee8f18580cbda2c70813",
+    "net_usage": 128,
+    "producer_block_id": null,
+    "receipt": {
+      "cpu_usage_us": 194,
+      "net_usage_words": 16,
+      "status": "executed"
+    },
+    "scheduled": false
+  },
+  "transaction_id": "f668f42e1e879a19241d8db9b3dd74eb243b9b3aad89ee8f18580cbda2c70813"
+}

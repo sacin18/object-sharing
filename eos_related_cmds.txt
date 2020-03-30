@@ -1,0 +1,293 @@
+ 1722  npm 
+ 1723  npm install -g @arcblock/forge-cli
+ 1724  forge init
+ 1725  ls
+ 1726  cd ..
+ 1727  forge init
+ 1728  forge start
+ 1729  forge chain:create
+ 1730  forge install
+ 1731  docker
+ 1732  docker images
+ 1733  docker run -p 8210:8210 arcblock/forge-release:0.31.0
+ 1734  npm install @arcblock/forge-cli
+ 1735  node
+ 1736  forge
+ 1737  forge install latest
+ 1738  cd /home/sacin/.forge_cli/release/forge_starter/1.1.0-p3
+ 1739  cd /home/sacin/.forge_cli/release/forge_starter/
+ 1740  cd /home/sacin/.forge_cli/release/
+ 1741  mkdir forge_starter
+ 1742  mkdir forge_starter/1.1.0-p3
+ 1743  ls
+ 1744  cd forge_starter/
+ 1745  ls
+ 1746  forge install latest
+ 1747  forge simulator
+ 1748  forge chain:create
+ 1749  forge start
+ 1750  docker container ls
+ 1751  docker container stop 2be2270d2d8f 
+ 1752  docker container rm 2be2270d2d8f 
+ 1753  docker contianer ls
+ 1754  docker container ls
+ 1755  ls_release -a
+ 1756  lsb_release -a
+ 1757  keosd
+ 1758  keosd &
+ 1759  cd ..
+ 1760  cd mkdir nodeos
+ 1761  mkdir nodeos
+ 1762  cd nodeos
+ 1763  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1764  tail -f nodeos.log
+ 1765  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1766  cleos wallet list
+ 1767  exit
+ 1768  eosio-cpp
+ 1769  eosio-cpp hello.cpp -o hello.wasm
+ 1770  cleos system listproducers
+ 1771  eosio-cpp hello.cpp -o hello.wasm
+ 1772  cd ,,
+ 1773  cd ..
+ 1774  ls
+ 1775  cd ..
+ 1776  ls
+ 1777  git clone https://github.com/EOSIO/eosio.contracts --branch v1.7.0 --single-branch
+ 1778  cd eosio.contracts/contracts/eosio.token
+ 1779  ls
+ 1780  cleos create account eosio eosio.token EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1781  cleos wallet list
+ 1782  cleos wallet unlock -n bob_wallet
+ 1783  cleos wallet list
+ 1784  cleos wallet unlock -n alice_Wallet
+ 1785  cleos wallet unlock -n alice_wallet
+ 1786  cleos wallet list
+ 1787  cleos wallet unlock
+ 1788  cleos wallet list
+ 1789  cleos wallet keys -n bob_wallet
+ 1790  cleos wallet keys
+ 1791  cleos wallet list
+ 1792  cleos create account eosio eosio.token EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1793  cleos wallet unlock
+ 1794  cleos create account eosio eosio.token EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1795  eosio-cpp -I include -o eosio.token.wasm src/eosio.token.cpp --abigen
+ 1796  cleos set contract eosio.token /d/blockchain/eos/contracts/eosio.contracts/contracts/eosio.token --abi eosio.token.abi -p eosio.token@active
+ 1797  cleos push action eosio.token create '[ "alice", "1000000000.0000 SYS"]' -p eosio.token@active
+ 1798  cleos get account alice
+ 1799  cleos push action eosio.token issue '[ "alice", "100.0000 SYS", "memo" ]' -p alice@active
+ 1800  cleos wallet list
+ 1801  cleos wallet unlock -n alice_wallet
+ 1802  cleos push action eosio.token issue '[ "alice", "100.0000 SYS", "memo" ]' -p alice@active
+ 1803  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j
+ 1804  cleos push action eosio.token transfer '[ "alice", "bob", "25.0000 SYS", "m" ]' -p alice@active
+ 1805  cleos get currency balance eosio.token bob SYS
+ 1806  cleos get currency balance eosio.token alice SYS
+ 1807  wget https://github.com/EOSIO/eos/releases/download/v2.0.0/eosio_2.0.0-1-ubuntu-18.04_amd64.deb
+ 1808  sudo apt install ./eosio_2.0.0-1-ubuntu-18.04_amd64.deb
+ 1809  mkdir contracts
+ 1810  cd contracts/
+ 1811  pwd
+ 1812  wget https://github.com/EOSIO/eosio.cdt/releases/download/v1.6.3/eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
+ 1813  sudo apt install ./eosio.cdt_1.6.3-1_amd64.deb
+ 1814  ls
+ 1815  sudo apt install eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
+ 1816  sudo apt install ./eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
+ 1817  ls
+ 1818  mkdir wallet
+ 1819  cd wallet/
+ 1820  cleos wallet create --to-console
+ 1821  cleos --help
+ 1822  cleos wallet
+ 1823  cleos wallet list
+ 1824  cleos wallet open
+ 1825  cleos wallet list
+ 1826  cleos wallet close
+ 1827  cleos wallet lock
+ 1828  cleos wallet list
+ 1829  cleos wallet open
+ 1830  cleos wallet stop
+ 1831  cleos wallet list
+ 1832  cleos wallet open
+ 1833  cleos wallet list
+ 1834  cleos wallet unlock
+ 1835  PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu
+ 1836  cleos wallet unlock
+ 1837  cleos wallet list
+ 1838  cleos wallet create_key
+ 1839  cleos wallet list
+ 1840  cleos wallet import
+ 1841  cleos wallet list
+ 1842  cleos wallet
+ 1843  cleos wallet keys
+ 1844  cleos wallet privete_keys
+ 1845  cleos wallet private_keys
+ 1846  cleos wallet list
+ 1847  cleos create account eosio bob
+ 1848  cleos create account eosio bob EOS7xo9hr41k2AqUYnUKw3nuBEVgfcX91eLU6XLpoasTSBpwLg9ai
+ 1849  cleos wallet list
+ 1850  cleos wallet
+ 1851  cleos wallet create --name bob_wallet
+ 1852  cleos wallet create --name bob_wallet --to-console
+ 1853  cleos wallet list
+ 1854  cleos wallet bob_wallet keys
+ 1855  cleos wallet
+ 1856  cleos wallet keys
+ 1857  cleos wallet list
+ 1858  cleos wallet bob_wallet create_key
+ 1859  cleos wallet --name bob_wallet create_key
+ 1860  cleos wallet create_key  --name bob_wallet
+ 1861  cleos wallet list
+ 1862  cleos wallet keys
+ 1863  cleos wallet create --name alice_wallet --to-console
+ 1864  cleos wallet --name alice_wallet create_key
+ 1865  cleos wallet create_key  --name alice_wallet
+ 1866  cleos wallet private_keys
+ 1867  cleos wallet private_keys --name bob_wallet
+ 1868  cleos wallet private_keys --name alice_wallet
+ 1869  cleos create account eosio bob
+ 1870  cleos create account eosio bob PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1871  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1872  cleos
+ 1873  cleos get
+ 1874  cleos get accounts
+ 1875  cleos get accounts EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1876  cleos get account
+ 1877  cleos get account bob
+ 1878  cleos get account eosio
+ 1879  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1880  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1881  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1882  cleos wallet --name bob_wallet unlock
+ 1883  cleos wallet unlock --name bob_wallet
+ 1884  cleos wallet lock --name bob_wallet
+ 1885  cleos wallet unlock --name bob_wallet
+ 1886  cleos wallet list
+ 1887  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1888  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1889  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV  EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1890  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1891  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+ 1892  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3  EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1893  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1894  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1895  cleos wallet imoprt
+ 1896  cleos wallet import
+ 1897  cleos wallet create
+ 1898  cleos wallet create --to-console
+ 1899  cleos wallet list
+ 1900  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1901  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1902  cleos wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+ 1903  cleos wallet import
+ 1904  cleos wallet import --name bob_wallet
+ 1905  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1906  cleos wallet list
+ 1907  cleos wallet keys
+ 1908  cleos wallet private_keys
+ 1909  cleos wallet private_keys --name bob_wallet
+ 1910  cleos wallet private_keys --name alice_wallet
+ 1911  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1912  cleos create account eosio alice EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1913  cleos wallet private_keys --name alice_wallet
+ 1914  cleos get account bob
+ 1915  cleos get account alice
+ 1916  cleos create account eosio alice2 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1917  cleos get account alice2
+ 1918  cleos --help
+ 1919  cleos create account eosio alice2 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1920  cleos create account eosio alice3 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1921  cleos get account alice3
+ 1922  cd ..
+ 1923  ls
+ 1924  cd smart_contracts
+ 1925  mkdir smart_contracts
+ 1926  cd smart_contracts
+ 1927  mkdir hello
+ 1928  cd hello/
+ 1929  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1930  cleos wallet list
+ 1931  cleos wallet unlock --name alice_Wallet
+ 1932  cleos wallet unlock --name alice_wallet
+ 1933  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1934  cleos create
+ 1935  cleos create account
+ 1936  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1937  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1938  cleos set contract alice3 EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e /d/blockchain/eos/contracts/smart_contracts/hello
+ 1939  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1940  cleos set contract
+ 1941  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1942  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1943  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1944  cleos set contract alice /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1945  cleos get account alice3
+ 1946  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV@active
+ 1947  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1948  cleos get account alice
+ 1949  cleos get account alice2
+ 1950  cleos set contract alice2 /d/blockchain/eos/contracts/smart_contracts/hello -p alice2@active
+ 1951  cleos push action hello hi '["bob"]'
+ 1952  cleos push action hello hi '["bob"]' -p bob@active
+ 1953  cleos push action alice hi '["bob"]' -p bob@active
+ 1954  cleos push action alice hi '["bob"]'
+ 1955  cleos push action alice hi '["bob"]' -p alice2@active
+ 1956  cleos push action alice hi '["bob"]' -p a@active
+ 1957  cleos push action alice hi '["bob"]' -p alice2@active
+ 1958  cleos wallet list
+ 1959  cleos wallet unlock bob_wallet PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1960  cleos wallet unlock bob_wallet -password PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1961  cleos wallet unlock --name bob_wallet --password PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1962  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1963  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1964  cleos push action hi '["alice"]' -p bob@active
+ 1965  cleos push action bob hi '["alice"]' -p bob@active
+ 1966  cleos push action bob hi '["alice"]' -p eosio@active
+ 1967  cleos push action bob hi '["alice"]' -p alice@active
+ 1968  cleos push action bob hi '["alice"]' -p alice3@active
+ 1969  cleos wallet list
+ 1970  cleos wallet unloack -n bob_wallet
+ 1971  cleos wallet unlock -n bob_wallet
+ 1972  cleos push action bob hi '["alice"]' -p alice3@active
+ 1973  cleos push action bob hi '["alice"]' -p alice3@active --return-packed
+ 1974  cleos push action bob hi '["alice"]' -d -p alice3@active --return-packed
+ 1975  cleos push action bob hi '["alice"]' -d -p alice3 --return-packed
+ 1976  cleos wallet list
+ 1977  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1978  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1979  cleos wallet unlock -n bob_wallet
+ 1980  cleos --help
+ 1981  cleos get account
+ 1982  cleos get account bob
+ 1983  cleos push action bob hi '["bob"]' -p bob
+ 1984  cleos push action bob hi '["alice"]' -p bob
+ 1985  cleos push action bob hi '["alice"]' -p eosio
+ 1986  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1987  cleos push action bob hi '["alice"]' -p eosio
+ 1988  cleos push action bob hi '["alice"]' -p bob
+ 1989  cleos push action bob hi '["bob"]' -p bob
+ 1990  cleos push action alice hi '["bob"]' -p bob
+ 1991  cleos wallet list
+ 1992  cleos get account bob
+ 1993  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1994  cleos wallet list
+ 1995  cleos wallet create --name bob_wallet --to-console
+ 1996  cleos wallet list
+ 1997  cleos wallet unlock -n bob_Wallet
+ 1998  cleos wallet create --name bob_wallet --to-console
+ 1999  cleos wallet unlock -n bob_Wallet
+ 2000  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 2001  cleos wallet list
+ 2002  history
+ 2003  ls
+ 2004  cd Desktop/
+ 2005  ls
+ 2006  cd ..
+ 2007  ls
+ 2008  cd ..
+ 2009  ls
+ 2010  cd ..
+ 2011  ls
+ 2012  cd d
+ 2013  ls
+ 2014  history > eos_related_cmds.txt
