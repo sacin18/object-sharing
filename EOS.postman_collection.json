@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "bc17a68d-283f-4cff-b612-9e205e3066ef",
+		"name": "EOS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"account_name\": \"eosio\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/v1/chain/get_account",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"chain",
+						"get_account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/v1/chain/get_info",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"chain",
+						"get_info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_producers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"limit\": \"4\",\n\t\"lower_bound\": \"2\",\n\t\"json\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/v1/chain/get_producers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"chain",
+						"get_producers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_currency_balance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"code\": \"eosio.token\",\r\n  \"account\": \"alice\",\r\n  \"symbol\": \"SYS\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/v1/chain/get_currency_balance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"chain",
+						"get_currency_balance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "push_transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"signatures\": [                                                                                                           \"SIG_K1_KhnSJ5v5Tnvx6nuBWh5K7EEEdjxmjeTTvJdK5g2CsPRemKFANoDZew5B1kFe94fgESqZKehQNUJZg3kjnWpEFhAreNZeZL\"\n\t],\n\t\"compression\": \"none\",\n\t\"packed_context_free_data\": \"\",\n\t\"packed_trx\": \"67f2805e5551674ebf6c000000000100a6823403ea3055000000572d3ccdcd010000000000855c3400000000a8ed3232220000000000855c340000000000000e3d90d00300000000000453595300000000016d00\"\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8888/v1/chain/push_transaction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"v1",
+						"chain",
+						"push_transaction"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
