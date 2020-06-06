@@ -1,0 +1,732 @@
+{
+	"info": {
+		"_postman_id": "4a706b99-4eb8-4f4d-ac0f-d95a40ee6333",
+		"name": "object share",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "blockchain handler",
+			"item": [
+				{
+					"name": "test",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "rzp_test_BSlmZyO2yAPcvS",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "OCWnmdOkOLRg0oQr9s66ahYN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:9011/test",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "9011",
+							"path": [
+								"test"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "seek service",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "default",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user",
+									"value": "eosio",
+									"type": "text"
+								},
+								{
+									"key": "servicer",
+									"value": "alice3",
+									"type": "text"
+								},
+								{
+									"key": "service",
+									"value": "parking",
+									"type": "text"
+								},
+								{
+									"key": "estcost",
+									"value": "1.0000 INR",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:9011/seekService",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "9011",
+							"path": [
+								"seekService"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "serv seeker",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "default",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "servicer",
+									"value": "alice3",
+									"type": "text"
+								},
+								{
+									"key": "seeker",
+									"value": "eosio",
+									"type": "text"
+								},
+								{
+									"key": "service",
+									"value": "parking",
+									"type": "text"
+								},
+								{
+									"key": "cost",
+									"value": "1.0000 INR",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:9011/servSeeker",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "9011",
+							"path": [
+								"servSeeker"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add service",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "default",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user",
+									"value": "alice3",
+									"type": "text"
+								},
+								{
+									"key": "service",
+									"value": "charging",
+									"type": "text"
+								},
+								{
+									"key": "cost",
+									"value": "10.0000 INR",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:9011/addService",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "9011",
+							"path": [
+								"addService"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add balance",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "default",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user",
+									"value": "alice3",
+									"type": "text"
+								},
+								{
+									"key": "quantity",
+									"value": "10.0000 INR",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:9011/addBalance",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "9011",
+							"path": [
+								"addBalance"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get transaction",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "default",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user",
+									"value": "alice3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "quantity",
+									"value": "10.0000 INR",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "transaction_id",
+									"value": "fd41d204dc147c55e5900911841a5494097023aef5186b1159c8f512ec14263a",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:9011/getTransaction",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "9011",
+							"path": [
+								"getTransaction"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "trusted_server",
+			"item": [
+				{
+					"name": "getCertificate",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "rzp_test_BSlmZyO2yAPcvS",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "OCWnmdOkOLRg0oQr9s66ahYN",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:9015/getCertificate?id=A1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "9015",
+							"path": [
+								"getCertificate"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "A1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "company servers",
+			"item": [
+				{
+					"name": "companyA",
+					"item": [
+						{
+							"name": "test",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "alice3",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "alice3",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:9020/test",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9020",
+									"path": [
+										"test"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "requestAuthToken",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id",
+											"value": "B1",
+											"type": "text"
+										},
+										{
+											"key": "seeking",
+											"value": "parking",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "1.0000 INR",
+											"type": "text"
+										},
+										{
+											"key": "user",
+											"value": "eosio",
+											"type": "text"
+										},
+										{
+											"key": "tid",
+											"value": "58131",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://localhost:9020/requestAuthToken",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9020",
+									"path": [
+										"requestAuthToken"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "companyB",
+					"item": [
+						{
+							"name": "test",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:9021/test",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9021",
+									"path": [
+										"test"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "authorize",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "eosio",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "eosio",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id",
+											"value": "B1",
+											"type": "text"
+										},
+										{
+											"key": "trans_id",
+											"value": "41",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://localhost:9021/authorize",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9021",
+									"path": [
+										"authorize"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "genAuthToken",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "seeking",
+											"value": "parking",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "1.0000 INR",
+											"type": "text"
+										},
+										{
+											"key": "user",
+											"value": "eosio",
+											"type": "text"
+										},
+										{
+											"key": "tid",
+											"value": "912",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://localhost:9021/genAuthToken",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9021",
+									"path": [
+										"genAuthToken"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getAuthorizables",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:9021/getAuthorizables?id=B1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9021",
+									"path": [
+										"getAuthorizables"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "B1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getAuthToken",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "2020-05-15 01:49:56.640703",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "dhjzbcbb",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "trans_id",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://localhost:9021/getAuthToken",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9021",
+									"path": [
+										"getAuthToken"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "addWalletMoney",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:9021/addWalletMoney?money=12.00&user=alice3",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9021",
+									"path": [
+										"addWalletMoney"
+									],
+									"query": [
+										{
+											"key": "money",
+											"value": "12.00"
+										},
+										{
+											"key": "user",
+											"value": "alice3"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "addWalletMoney Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": ""
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateWallet",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:9021/updateWallet?invoice_id=inv_Etuya97S4rhEHT",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9021",
+									"path": [
+										"updateWallet"
+									],
+									"query": [
+										{
+											"key": "invoice_id",
+											"value": "inv_Etuya97S4rhEHT"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
