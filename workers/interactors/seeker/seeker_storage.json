@@ -1,0 +1,11 @@
+{
+    "services":{
+        
+    },
+    "seekable":[
+        "parking"
+    ],
+    "id":"B1",
+    "user":"eosio",
+    "password":"eosio"
+}

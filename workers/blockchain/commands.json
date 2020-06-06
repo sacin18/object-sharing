@@ -1,0 +1,69 @@
+{
+    "wallet list":[
+        "cleos",
+        "wallet",
+        "list"
+    ],
+    "wallet unlock":[
+        "cleos",
+        "wallet",
+        "unlock",
+        "--name",
+        "wallet-name",
+        "--password",
+        "wallet-password"
+    ],
+    "wallet lock":[
+        "cleos",
+        "wallet",
+        "lock",
+        "--name",
+        "wallet-name"
+    ],
+    "issue_bal":[
+        "cleos",
+        "push",
+        "action",
+        "objshare.tkn",
+        "issue",
+        "[\"eosio\",\"1.0000 INR\"]",
+        "-p",
+        "eosio@active"
+    ],
+    "seek_service":[
+        "cleos",
+        "push",
+        "action",
+        "objshare.tkn",
+        "seekservice",
+        "[\"eosio\",\"alice3\",\"parking\",\"1.0000 INR\"]",
+        "-p",
+        "eosio@active"
+    ],
+    "serv_seeker":[
+        "cleos",
+        "push",
+        "action",
+        "objshare.tkn",
+        "servseeker",
+        "[\"alice3\",\"eosio\",\"parking\",\"10.0000 INR\"]",
+        "-p",
+        "alice3@active"
+    ],
+    "add_service":[
+        "cleos",
+        "push",
+        "action",
+        "objshare.tkn",
+        "addservice",
+        "[\"alice3\",\"parking\",\"2.0000 INR\"]",
+        "-p",
+        "alice3@active"
+    ],
+    "get_transaction":[
+        "cleos",
+        "get",
+        "transaction",
+        "a93c6b9aac8497eb337173622166b48a484f5fc698bcc9d7737cff50ec850ad8"
+    ]
+}

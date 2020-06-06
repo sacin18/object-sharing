@@ -1,0 +1,25 @@
+/d/blockchain/eos/contracts/smart_contracts/hello
+
+eosio public key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+eosio private key: 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+
+
+"/usr/opt/eosio/2.0.0/bin/keosd" launched                                                                               Creating wallet: default                                                                                                Save password to use in the future to unlock this wallet.                                                               Without password imported keys will not be retrievable.                                                                 "PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu"
+
+Created new private key with a public key of: "EOS7xo9hr41k2AqUYnUKw3nuBEVgfcX91eLU6XLpoasTSBpwLg9ai"
+
+cleos wallet import                                                
+private key: imported private key for: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+
+
+
+sacin@sacin-comp:/d/blockchain/eos/contracts/wallet$ cleos wallet create --name bob_wallet --to-console                 Creating wallet: bob_wallet                                                                                             Save password to use in the future to unlock this wallet.                                                               Without password imported keys will not be retrievable.                                                                 "PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5" 
+
+sacin@sacin-comp:/d/blockchain/eos/contracts/wallet$ cleos wallet create_key  --name bob_wallet                         Created new private key with a public key of: "EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA" 
+
+
+
+sacin@sacin-comp:/d/blockchain/eos/contracts/wallet$ cleos wallet create --name alice_wallet --to-console               Creating wallet: alice_wallet                                                                                           Save password to use in the future to unlock this wallet.                                                               Without password imported keys will not be retrievable.                                                                 "PW5HsEYMxSbTTwTWDr9ZcirnGBkQb1JF6GFtiAZ492ix35xENqRoA" 
+
+sacin@sacin-comp:/d/blockchain/eos/contracts/wallet$ cleos wallet create_key  --name alice_wallet                       Created new private key with a public key of: "EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e"
+

@@ -1,0 +1,12 @@
+{
+    "services":{
+        "parking":"1.0000 INR",
+        "charging":"10.0000 INR"
+    },
+    "seekable":[
+        
+    ],
+    "id":"A1",
+    "user":"alice3",
+    "password":"alice3"
+}

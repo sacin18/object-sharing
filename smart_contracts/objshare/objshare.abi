@@ -1,0 +1,279 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "abruptcomp",
+            "base": "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "to",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                },
+                {
+                    "name": "service",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "addservice",
+            "base": "",
+            "fields": [
+                {
+                    "name": "to",
+                    "type": "name"
+                },
+                {
+                    "name": "service",
+                    "type": "string"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "bal_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "name"
+                },
+                {
+                    "name": "confirmedBalance",
+                    "type": "asset"
+                },
+                {
+                    "name": "debitBalance",
+                    "type": "asset"
+                },
+                {
+                    "name": "creditBalance",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "clearentries",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "clearservs",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "issue",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "pair_string_asset",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "pair_string_bool",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "seekservice",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "service",
+                    "type": "string"
+                },
+                {
+                    "name": "estimatedCost",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "serv_table",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "name"
+                },
+                {
+                    "name": "services",
+                    "type": "pair_string_asset[]"
+                },
+                {
+                    "name": "service_usage",
+                    "type": "pair_string_bool[]"
+                }
+            ]
+        },
+        {
+            "name": "servseeker",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "seeker",
+                    "type": "name"
+                },
+                {
+                    "name": "service",
+                    "type": "string"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "transfer",
+            "base": "",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name"
+                },
+                {
+                    "name": "to",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                },
+                {
+                    "name": "memo",
+                    "type": "string"
+                },
+                {
+                    "name": "balEnum",
+                    "type": "int8"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "abruptcomp",
+            "type": "abruptcomp",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "addservice",
+            "type": "addservice",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "clearentries",
+            "type": "clearentries",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "clearservs",
+            "type": "clearservs",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "issue",
+            "type": "issue",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "seekservice",
+            "type": "seekservice",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "servseeker",
+            "type": "servseeker",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "transfer",
+            "type": "transfer",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "baltable",
+            "type": "bal_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "servtable",
+            "type": "serv_table",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
