@@ -211,9 +211,10 @@ def servSeeker():
                 return errors2.decode('ascii'),400
         return "requires form elements servicer,seeker,service,cost! one or more parameters missing",400
 
-    proc=subprocess.Popen(cmd.serv_seeker(servicer,seeker,service,cost),stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    proc=subprocess.Popen(cmd.serv_seeker(servicer,seeker,service,cost),stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     output,errors=proc.communicate()
     proc.wait()
+    transaction_id="successful"
     if(output.decode('ascii')==""):
         if(not leaveUnlocked):
             proc=subprocess.Popen(cmd.wallet_lock(name),stdout=subprocess.PIPE,stderr=subprocess.PIPE)
@@ -222,7 +223,8 @@ def servSeeker():
             if(output2.decode('ascii')==""):
                 return errors2.decode('ascii'),400
         return errors.decode('ascii'),400
-
+    else:
+        transaction_id=errors.decode('ascii').split(" ")[2]
     if(not leaveUnlocked):
         proc=subprocess.Popen(cmd.wallet_lock(name),stdout=subprocess.PIPE,stderr=subprocess.PIPE)
         output,errors=proc.communicate()
@@ -230,7 +232,7 @@ def servSeeker():
         if(output.decode('ascii')==""):
             return errors.decode('ascii'),400
         #return output.decode('ascii')
-    return "successful"
+    return transaction_id
 
 @app.route('/getTransaction', methods=['POST'])
 @cross_origin()

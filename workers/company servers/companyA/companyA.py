@@ -42,6 +42,27 @@ def retryTokenRetrieval(username,password,trans_id,id):
         t.start()
         t.join()
 
+def login(username,password):
+    try:
+        connection = mysql.connector.connect(host=stored_val['db_host'],
+                                port=stored_val['db_port'],
+                                database=stored_val['db'],
+                                user=stored_val['db_user'],
+                                password=stored_val['db_password'])
+
+        cursor = connection.cursor()
+        #get company url of device from id if company exists
+        password=hashlib.sha256(password.encode('ascii')).hexdigest()
+        sql_select_blob_query = "select * from users where username='"+username+"' and password='"+password+"'"
+        cursor.execute(sql_select_blob_query)
+        result=cursor.fetchall()
+        if(len(result)==0):
+            connection.close()
+            return False
+    except mysql.connector.Error as error:
+        print("Failed to access mysql tables {}".format(error))
+    return True
+
 @app.route('/test', methods=['GET'])
 @cross_origin()
 def test():
@@ -150,6 +171,43 @@ def getAuthToken():
         return authToken,200
     return "failed",404
     
+@app.route('/transactionComplete', methods=['POST'])
+@cross_origin()
+def transactionComplete():
+    global seeker_company_url
+    global stored_val
+    price=flask.request.form['price']
+    trans_id=flask.request.form['trans_id']
+    if(flask.request.authorization==None):
+        return "failed",400
+    name=flask.request.authorization['username']
+    password=flask.request.authorization['password']
+    if(name.strip()=="" or password.strip()==""):
+        return "failed",400
+    if(not login(name,password)):
+        return "failed",401
+    tmp=(price,trans_id,name,password)
+    if((None in tmp) or ("" in tmp)):
+        return "too few arguemnets",400
+    try:
+        connection = mysql.connector.connect(host=stored_val['db_host'],
+                                port=stored_val['db_port'],
+                                database=stored_val['db'],
+                                user=stored_val['db_user'],
+                                password=stored_val['db_password'])
+
+        cursor = connection.cursor()
+        sql_update_blob_query = "update trans set price='"+price+"' where trans_id='"+trans_id+"'"
+        cursor.execute(sql_update_blob_query)
+        val=cursor.rowcount
+        if(val==0):
+            print("db update failed")
+        connection.close()
+        print("transaction completed successfully")
+    except mysql.connector.Error as error:
+        print("Failed to access mysql tables {}".format(error))
+        return "failed to update database",500
+    return "successful",200
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=9020,ssl_context=context)

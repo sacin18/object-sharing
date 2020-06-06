@@ -94,6 +94,7 @@ def secure_socket():
                     v=json.loads(response.text)
                     username=v["username"]
                     password=v["password"]
+                    auth_transaction_id=v["trans_id"]
                     data={"trans_id":v["trans_id"],"id":v["id"]}
                     print("requesting company A to get auth token from company B")
                     retryTokenRetrieval(username,password,v["trans_id"],v["id"])
@@ -129,6 +130,7 @@ def secure_socket():
                             password=result[0][1]
                         auth=HTTPBasicAuth(username,password)
                         response = requests.post('https://'+blockchain_url+'/getTransaction',auth=auth,data={"transaction_id":r},verify='../blockchain_handler.crt')
+                        print("blockchain transaction id : "+str(r))
                         if(response.status_code==200):
                             dta=json.loads(response.text.replace("'","\""))
                             if(snd["user"]==dta["from"] and dta["user"]==val["user"] and val["price"]==stored_val["services"][val["seeking"]]):
@@ -157,7 +159,22 @@ def secure_socket():
                                 data["cost"]=str(min(int(end_timer-start_timer)*int(float(val["price"].split(" ")[0])),creditCut))+".0000 INR"
                                 response = requests.post('https://'+blockchain_url+'/servSeeker',auth=auth,data=data,verify='../blockchain_handler.crt')
                                 if(response.status_code==200):
-                                    print("transaction completed")
+                                    print("transaction completed on blockchain:",response.text)
+                                    auth=HTTPBasicAuth(stored_val["user"],stored_val["password"])
+                                    tmpData=dict()
+                                    tmpData["price"]=data["cost"]
+                                    tmpData["trans_id"]=auth_transaction_id
+                                    response = requests.post('https://'+servicer_company_url+'/transactionComplete',auth=auth,data=tmpData,verify='./companyA.crt')
+                                    if(response.status_code==200):
+                                        print("complete transaction completed successfully")
+                                    else:
+                                        print("error! transaction was not updated on db")
+                                else:
+                                    print("error! transaction not registered on blockchain")
+                        else:
+                            print("failed to verify seeker's transaction on blockchain")
+                    else:
+                        print("failed to retrieve transaction information on blockchain")
                 else:
                     print("company A auth token request failed")
             else:
