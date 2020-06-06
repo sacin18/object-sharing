@@ -1,0 +1,1000 @@
+ 1082  rosservice type /spawn
+ 1083  rossrv type /spawn
+ 1084  rossrv show turtlesim/Spawn
+ 1085  rosservice call /spawn 5 5 0.5 "t1"
+ 1086  rosservice call /kill "t1"
+ 1087  rosservice call /spawn 5 5 0.5 "turtle1"
+ 1088  rosservice call /spawn 5 5 0.5 "turtle2"
+ 1089  rosparam list
+ 1090  roscore
+ 1091  sudo apt-get install ros-melodic-rqt
+ 1092  sudo apt-get install ros-melodic-rqt-common-plugins
+ 1093  export DISPLAY=:0
+ 1094  rosrun rqt_graph rqt_graph
+ 1095  rostopic -h
+ 1096  rostopic list
+ 1097  rostopic echo
+ 1098  rostopic echo /turtle1/
+ 1099  rostopic echo /turtle1/cmd_vel
+ 1100  rostopic list
+ 1101  rostopic echo /turtle1/pose
+ 1102  rostopic list
+ 1103  rostopic echo /turtle1/color_sensor
+ 1104  rostopic type /turtle1/color_sensor
+ 1105  rostopic type /turtle1/pose
+ 1106  rostopic type /turtle1/cmd_vel
+ 1107  rostopic list -v
+ 1108  rosmsg show geometry_msgs/Twist
+ 1109  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[5.0,1.0,0.0]' '[0.0,0.0,0.0]'
+ 1110  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[-5.0,1.0,0.0]' '[0.0,0.0,0.0]'
+ 1111  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,0.0]' '[0.0,0.0,0.0]'
+ 1112  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,2.0]' '[0.0,0.0,0.0]'
+ 1113  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[-5.0,1.0,0.0]' '[0.0,0.0,0.0]'
+ 1114  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,2.0]' '[1.0,0.0,0.0]'
+ 1115  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,2.0]' '[1.0,2.0,2.0]'
+ 1116  rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,2.0]' '[1.0,0.0,0.0]'
+ 1117  rostopic pub 2 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,2.0]' '[1.0,0.0,0.0]'
+ 1118  rostopic pub 0 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,2.0]' '[1.0,0.0,0.0]'
+ 1119  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,2.0,2.0]' '[1.0,0.0,0.0]'
+ 1120  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[-5.0,1.0,0.0]' '[0.0,0.0,0.0]'
+ 1121  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0,0.0,0.0]' '[0.0,0.0,4.0]'
+ 1122  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[10.0,0.0,0.0]' '[0.0,0.0,1.0]'
+ 1123  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[-5.0,1.0,0.0]' '[0.0,0.0,0.0]'
+ 1124  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[10.0,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1125  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[7.0,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1126  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[6.5,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1127  rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[6.0,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1128  rostopic list -v
+ 1129  rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[6.0,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1130  rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[5.0,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1131  rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1132  rostopic list -v
+ 1133  rostopic pub /turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0,0.0,0.0]' '[0.0,0.0,2.0]'
+ 1134  export DISPLAY=:0
+ 1135  rosrun turtlesim turtlesim_node __name:=t3
+ 1136  export DISPLAY=:0
+ 1137  source devel/setup.bash
+ 1138  rospack depends1 beginner_tutorial 
+ 1139  roscd beginner_tutorial/
+ 1140  mkdir launch
+ 1141  cd launch/
+ 1142  ls
+ 1143  roslaunch beginner_tutorial firstlaunch.launch 
+ 1144  rostopic list -v
+ 1145  rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
+ 1146  rostopic list -v
+ 1147  rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
+ 1148  rostopic list -v
+ 1149  rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
+ 1150  rostopic pub /turtlesim2/turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
+ 1151  rostopic pub /turtlesim1/turtle1/cmd_vel geometry_msgs/Twist -r 1 -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, -1.8]'
+ 1152  cd ..
+ 1153  source devel/setup.bash
+ 1154  rosrun beginner_tutorial details_seeker.py
+ 1155  export DISPLAY=:0
+ 1156  rosrun rosqt_graph rosqt_graph
+ 1157  rosrun rqt_graph rqt_graph
+ 1158  rqt
+ 1159  rostopic help
+ 1160  rostopic list
+ 1161  rostopic echi /turtlesim1/turtle1/cmd_vel
+ 1162  rostopic echo /turtlesim1/turtle1/cmd_vel
+ 1163  rostopic echo /turtlesim1/turtle1/pose
+ 1164  rostopic echo /turtlesim1/turtle1/pose > ha.txt
+ 1165  rosservice list
+ 1166  rosservice help
+ 1167  rosservice type /turtlesim1/kill | rossrv show
+ 1168  rosservice type /turtlesim1/spawn | rossrv show
+ 1169  rosservice type /turtlesim1/reset | rossrv show
+ 1170  rosservice type /turtlesim1/get_loggers | rossrv show
+ 1171  rosservice type /turtlesim1/sim/get_loggers | rossrv show
+ 1172  rosmsg list
+ 1173  rosmsg list > s.txt
+ 1174  cd ..
+ 1175  source devel/setup.bash
+ 1176  rosmsg list
+ 1177  rosmsg list > s.txt
+ 1178  rospack depends1 beginner_tutorial 
+ 1179  catkin
+ 1180  catkin_make
+ 1181  rospack depends1 beginner_tutorial 
+ 1182  rosmsg list > s.txt
+ 1183  catkin_make
+ 1184  rosmsg show beginner_tutorial/Details 
+ 1185  catkin_make
+ 1186  rospack depends1 beginner_tutorial 
+ 1187  rosmsg show beginner_tutorial/Details 
+ 1188  rosrun beginner_tutorial details_seeker.py 
+ 1189  rostopic list -v
+ 1190  catkin_make
+ 1191  rostopic list -v
+ 1192  rosrun beginner_tutorial details_seeker.py 
+ 1193  catkin_make
+ 1194  rosrun beginner_tutorial details_seeker.py 
+ 1195  source devel/setup.bash
+ 1196  rosrun beginner_tutorial details_seeker.py 
+ 1197  catkin_make
+ 1198  rosrun beginner_tutorial details_seeker.py 
+ 1199  rostopic list -v
+ 1200  rostopic list
+ 1201  rostopic type /antiquity
+ 1202  rostopic type /antiquity | rosmsg show
+ 1203  rosnode list
+ 1204  rqt
+ 1205  cd ..
+ 1206  source devel/setup.bash
+ 1207  rosrun beginner_tutorial details_producer.py 
+ 1208  lsb_release
+ 1209  cd ..
+ 1210  cd .
+ 1211  cd ..
+ 1212  catkin_make
+ 1213  rostopic list -v
+ 1214  rosnodes list
+ 1215  rosnode list
+ 1216  catkin_make
+ 1217  rosnode list
+ 1218  catkin_make
+ 1219  lsb_release -a
+ 1220  sudo add-apt-repository ppa:roehling/grpc
+ 1221  roscore
+ 1222  sudo apt-get update
+ 1223  sudo apt-get install ros-indigo-multimaster-fkie
+ 1224  sudo apt-get install ros-melodic-multimaster-fkie
+ 1225  cat /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts
+ 1226  c ..
+ 1227  cd ..
+ 1228  ls
+ 1229  cat /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts
+ 1230  cd proc
+ 1231  cd sys
+ 1232  cd net
+ 1233  cd ipv4
+ 1234  cat icmp_echo_ignore_broadcasts
+ 1235  ls
+ 1236  cd ..
+ 1237  ls
+ 1238  cd ..
+ 1239  ls
+ 1240  cd proc
+ 1241  cd sys
+ 1242  cd net
+ 1243  ls
+ 1244  cd ipv4
+ 1245  ls
+ 1246  cd ip_forward
+ 1247  sudo ls
+ 1248  gedit ip_forward 
+ 1249  export DISPLAY=:0
+ 1250  gedit ip_forward 
+ 1251  man cat
+ 1252  git clone https://github.com/fkie/multimaster_fkie.git multimaster
+ 1253  cd ..
+ 1254  carkin_make
+ 1255  catkin_make
+ 1256  roscore
+ 1257  catkin_make
+ 1258  cat /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts
+ 1259  ls
+ 1260  cd ..
+ 1261  cd .
+ 1262  cd ..
+ 1263  ls
+ 1264  cd etc
+ 1265  ls
+ 1266  export DISPLAY=:0
+ 1267  gedit sysctl.conf
+ 1268  export DISPLAY=:0
+ 1269  gedit ~/.bashrc
+ 1270  ls
+ 1271  cd Downloads/
+ 1272  ls
+ 1273  cd ..
+ 1274  ls
+ 1275  cd ..
+ 1276  ls
+ 1277  cd c
+ 1278  ls
+ 1279  cd Users/
+ 1280  ls
+ 1281  cd pu
+ 1282  cd Public/
+ 1283  ls
+ 1284  cd Desktop
+ 1285  ls
+ 1286  cd ..
+ 1287  cd Downloads/
+ 1288  ls
+ 1289  cd ..
+ 1290  cd c
+ 1291  cd Users/
+ 1292  cd public
+ 1293  cd Sacin
+ 1294  ls
+ 1295  cd ..
+ 1296  ls
+ 1297  cd sacin
+ 1298  cd OneDrive/
+ 1299  ls
+ 1300  cd Desktop/
+ 1301  ls
+ 1302  cd ..
+ 1303  cd Downloads/
+ 1304  ls
+ 1305  g++ tmp.cpp
+ 1306  ./tmp
+ 1307  ./a.out
+ 1308  g++ tmp.cpp -o tmp
+ 1309  ./tmp
+ 1310  g++ tmp.cpp -o tmp
+ 1311  ./tmp
+ 1312  g++ tmp.cpp -o tmp
+ 1313  ./tmp
+ 1314  g++ tmp.cpp -o tmp
+ 1315  ./tmp
+ 1316  g++ tmp.cpp -o tmp
+ 1317  ./tmp
+ 1318  g++ tmp.cpp -o tmp
+ 1319  ./tmp
+ 1320  g++ tmp.cpp -o tmp
+ 1321  ./tmp
+ 1322  g++ tmp.cpp -o tmp
+ 1323  ./tmp
+ 1324  g++ tmp.cpp -o tmp
+ 1325  ./tmp
+ 1326  g++ tmp.cpp -o tmp
+ 1327  ./tmp
+ 1328  g++ hash.cpp -o hash
+ 1329  ./hash
+ 1330  g++ tmp.cpp -o tmp
+ 1331  ./tmp
+ 1332  g++ tmp.cpp -o tmp
+ 1333  ./tmp
+ 1334  g++ hash.cpp -o hash
+ 1335  ./tmp
+ 1336  ./hash
+ 1337  g++ hash.cpp -o hash
+ 1338  ./hash
+ 1339  g++ hash.cpp -o hash
+ 1340  ./hash
+ 1341  g++ hash.cpp -o hash
+ 1342  ./hash
+ 1343  g++ hash.cpp -o hash
+ 1344  ./hash
+ 1345  g++ hash.cpp -o hash
+ 1346  ./hash
+ 1347  g++ hash.cpp -o hash
+ 1348  ./hash
+ 1349  g++ hash.cpp -o hash
+ 1350  ./hash
+ 1351  g++ hash.cpp -o hash
+ 1352  ./hash
+ 1353  g++ hash.cpp -o hash
+ 1354  ./hash
+ 1355  g++ hash.cpp -o hash
+ 1356  ./hash
+ 1357  g++ hash.cpp -o hash
+ 1358  ./hash
+ 1359  g++ hash.cpp -o hash
+ 1360  ./hash
+ 1361  g++ hash.cpp -o hash
+ 1362  ./hash
+ 1363  g++ hash.cpp -o hash
+ 1364  ./hash
+ 1365  g++ hash.cpp -o hash
+ 1366  ./hash
+ 1367  g++ hash.cpp -o hash
+ 1368  ./hash
+ 1369  g++ hash.cpp -o hash
+ 1370  ./hash
+ 1371  python
+ 1372  python attack.py 
+ 1373  python
+ 1374  cd ..
+ 1375  ls
+ 1376  cd c
+ 1377  cd Users
+ 1378  cd sacin
+ 1379  cd OneDrive/
+ 1380  ls
+ 1381  cd Desktop/
+ 1382  ls
+ 1383  python attack.py
+ 1384  ls
+ 1385  cd ..
+ 1386  ls
+ 1387  cd cd
+ 1388  cd c
+ 1389  ls
+ 1390  cd Users
+ 1391  cd sacin
+ 1392  cd OneDrive/
+ 1393  ls
+ 1394  cd Documents/
+ 1395  cd bits/
+ 1396  ls
+ 1397  cd 'CS G513 NS'
+ 1398  ls
+ 1399  cd assignment\ 1/
+ 1400  ls
+ 1401  cd tries 1c
+ 1402  cd tries1c
+ 1403  ls
+ 1404  cd test\ files/
+ 1405  ls
+ 1406  python try1.py encry.txt pln0.txt
+ 1407  python3 try1.py encry.txt pln0.txt
+ 1408  exit
+ 1409  cd ..
+ 1410  ls
+ 1411  cd home
+ 1412  ls
+ 1413  cd ..
+ 1414  cd home/sacin
+ 1415  exit
+ 1416  openssl req -new -x509 -extensions v3_ca -keyout key/ca.key -out crt/ca.crt -config ca.cnf
+ 1417  cd certificate_authority/
+ 1418  openssl req -new -x509 -extensions v3_ca -keyout key/ca.key -out crt/ca.crt -config ca.cnf
+ 1419  cd ..
+ 1420  openssl genrsa -out smthclient1.key 4096
+ 1421  openssl req -new -sha1 key smthclient1.key -out smthclient1.csr
+ 1422  openssl req -new -sha1 -key smthclient1.key -out smthclient1.csr
+ 1423  openssl ca -out smthclient1.crt -in smthclient1.csr -config certificate_authority/ca.cnf
+ 1424  cd certificate_authority/
+ 1425  openssl ca -out ../smthclient1.crt -in ../smthclient1.csr -config ca.cnf
+ 1426  python3 server.py
+ 1427  pip3 install flask
+ 1428  sudo apt isntall python3-pip
+ 1429  sudo apt install python3-pip
+ 1430  pip3 install flask
+ 1431  python3 server.py
+ 1432  pip3 install flask_api
+ 1433  python3 server.py
+ 1434  pip3 install tinyec
+ 1435  python3 server.py
+ 1436  cd ..
+ 1437  source bin/activate
+ 1438  certifi==2019.11.28
+ 1439  chardet==3.0.4
+ 1440  click==7.1.1
+ 1441  Flask==1.1.1
+ 1442  Flask-API==2.0
+ 1443  idna==2.9
+ 1444  itsdangerous==1.1.0
+ 1445  Jinja2==2.11.1
+ 1446  MarkupSafe==1.1.1
+ 1447  pycryptodome==3.9.7
+ 1448  requests==2.23.0
+ 1449  tinyec==0.3.1
+ 1450  urllib3==1.25.8
+ 1451  python3 src/client.py 
+ 1452  exit
+ 1453  python3 client.py
+ 1454  cd ..
+ 1455  ls
+ 1456  virtualenv .
+ 1457  sudo apt install virtualenv
+ 1458  virtualenv .
+ 1459  ls
+ 1460  virtualenv -p python3 .
+ 1461  source bin/activate
+ 1462  pip3 install -r requirements.txt 
+ 1463  pip3 freeze
+ 1464  cd source
+ 1465  cd src
+ 1466  python3 server.py
+ 1467  pip3 freeze
+ 1468  pip3 install pycrypto
+ 1469  pip3 freeze
+ 1470  python3 server.py
+ 1471  pip3 install pycrypto
+ 1472  python3 server.py
+ 1473  pip3 install crypto
+ 1474  pip3 install Crypto
+ 1475  python3 server.py
+ 1476  pip3 uninstall -r ../requirement.txt
+ 1477  cd ..
+ 1478  pip3 uninstall -r requirement.txt
+ 1479  pip3 uninstall -r requirements.txt 
+ 1480  pip3 install -r requirements.txt 
+ 1481  python3 src/server.py
+ 1482  python3 src/client.py
+ 1483  source bin/activate
+ 1484  python3 src/client.py 
+ 1485  vi src/client.py 
+ 1486  python3 src/client.py 
+ 1487  npm 
+ 1488  npm install -g @arcblock/forge-cli
+ 1489  forge init
+ 1490  ls
+ 1491  cd ..
+ 1492  forge init
+ 1493  forge start
+ 1494  forge chain:create
+ 1495  forge install
+ 1496  docker
+ 1497  docker images
+ 1498  docker run -p 8210:8210 arcblock/forge-release:0.31.0
+ 1499  npm install @arcblock/forge-cli
+ 1500  node
+ 1501  forge
+ 1502  forge install latest
+ 1503  cd /home/sacin/.forge_cli/release/forge_starter/1.1.0-p3
+ 1504  cd /home/sacin/.forge_cli/release/forge_starter/
+ 1505  cd /home/sacin/.forge_cli/release/
+ 1506  mkdir forge_starter
+ 1507  mkdir forge_starter/1.1.0-p3
+ 1508  ls
+ 1509  cd forge_starter/
+ 1510  ls
+ 1511  forge install latest
+ 1512  forge simulator
+ 1513  forge chain:create
+ 1514  forge start
+ 1515  docker container ls
+ 1516  docker container stop 2be2270d2d8f 
+ 1517  docker container rm 2be2270d2d8f 
+ 1518  docker contianer ls
+ 1519  docker container ls
+ 1520  ls_release -a
+ 1521  lsb_release -a
+ 1522  keosd
+ 1523  keosd &
+ 1524  cd ..
+ 1525  cd mkdir nodeos
+ 1526  mkdir nodeos
+ 1527  cd nodeos
+ 1528  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1529  tail -f nodeos.log
+ 1530  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1531  cleos wallet list
+ 1532  exit
+ 1533  eosio-cpp
+ 1534  eosio-cpp hello.cpp -o hello.wasm
+ 1535  cleos system listproducers
+ 1536  eosio-cpp hello.cpp -o hello.wasm
+ 1537  cd ,,
+ 1538  cd ..
+ 1539  ls
+ 1540  cd ..
+ 1541  ls
+ 1542  git clone https://github.com/EOSIO/eosio.contracts --branch v1.7.0 --single-branch
+ 1543  cd eosio.contracts/contracts/eosio.token
+ 1544  ls
+ 1545  cleos create account eosio eosio.token EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1546  cleos wallet list
+ 1547  cleos wallet unlock -n bob_wallet
+ 1548  cleos wallet list
+ 1549  cleos wallet unlock -n alice_Wallet
+ 1550  cleos wallet unlock -n alice_wallet
+ 1551  cleos wallet list
+ 1552  cleos wallet unlock
+ 1553  cleos wallet list
+ 1554  cleos wallet keys -n bob_wallet
+ 1555  cleos wallet keys
+ 1556  cleos wallet list
+ 1557  cleos create account eosio eosio.token EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1558  cleos wallet unlock
+ 1559  cleos create account eosio eosio.token EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1560  eosio-cpp -I include -o eosio.token.wasm src/eosio.token.cpp --abigen
+ 1561  cleos set contract eosio.token /d/blockchain/eos/contracts/eosio.contracts/contracts/eosio.token --abi eosio.token.abi -p eosio.token@active
+ 1562  cleos push action eosio.token create '[ "alice", "1000000000.0000 SYS"]' -p eosio.token@active
+ 1563  cleos get account alice
+ 1564  cleos push action eosio.token issue '[ "alice", "100.0000 SYS", "memo" ]' -p alice@active
+ 1565  cleos wallet list
+ 1566  cleos wallet unlock -n alice_wallet
+ 1567  cleos push action eosio.token issue '[ "alice", "100.0000 SYS", "memo" ]' -p alice@active
+ 1568  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j
+ 1569  cleos push action eosio.token transfer '[ "alice", "bob", "25.0000 SYS", "m" ]' -p alice@active
+ 1570  cleos get currency balance eosio.token bob SYS
+ 1571  cleos get currency balance eosio.token alice SYS
+ 1572  wget https://github.com/EOSIO/eos/releases/download/v2.0.0/eosio_2.0.0-1-ubuntu-18.04_amd64.deb
+ 1573  sudo apt install ./eosio_2.0.0-1-ubuntu-18.04_amd64.deb
+ 1574  mkdir contracts
+ 1575  cd contracts/
+ 1576  pwd
+ 1577  wget https://github.com/EOSIO/eosio.cdt/releases/download/v1.6.3/eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
+ 1578  sudo apt install ./eosio.cdt_1.6.3-1_amd64.deb
+ 1579  ls
+ 1580  sudo apt install eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
+ 1581  sudo apt install ./eosio.cdt_1.6.3-1-ubuntu-18.04_amd64.deb
+ 1582  ls
+ 1583  mkdir wallet
+ 1584  cd wallet/
+ 1585  cleos wallet create --to-console
+ 1586  cleos --help
+ 1587  cleos wallet
+ 1588  cleos wallet list
+ 1589  cleos wallet open
+ 1590  cleos wallet list
+ 1591  cleos wallet close
+ 1592  cleos wallet lock
+ 1593  cleos wallet list
+ 1594  cleos wallet open
+ 1595  cleos wallet stop
+ 1596  cleos wallet list
+ 1597  cleos wallet open
+ 1598  cleos wallet list
+ 1599  cleos wallet unlock
+ 1600  PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu
+ 1601  cleos wallet unlock
+ 1602  cleos wallet list
+ 1603  cleos wallet create_key
+ 1604  cleos wallet list
+ 1605  cleos wallet import
+ 1606  cleos wallet list
+ 1607  cleos wallet
+ 1608  cleos wallet keys
+ 1609  cleos wallet privete_keys
+ 1610  cleos wallet private_keys
+ 1611  cleos wallet list
+ 1612  cleos create account eosio bob
+ 1613  cleos create account eosio bob EOS7xo9hr41k2AqUYnUKw3nuBEVgfcX91eLU6XLpoasTSBpwLg9ai
+ 1614  cleos wallet list
+ 1615  cleos wallet
+ 1616  cleos wallet create --name bob_wallet
+ 1617  cleos wallet create --name bob_wallet --to-console
+ 1618  cleos wallet list
+ 1619  cleos wallet bob_wallet keys
+ 1620  cleos wallet
+ 1621  cleos wallet keys
+ 1622  cleos wallet list
+ 1623  cleos wallet bob_wallet create_key
+ 1624  cleos wallet --name bob_wallet create_key
+ 1625  cleos wallet create_key  --name bob_wallet
+ 1626  cleos wallet list
+ 1627  cleos wallet keys
+ 1628  cleos wallet create --name alice_wallet --to-console
+ 1629  cleos wallet --name alice_wallet create_key
+ 1630  cleos wallet create_key  --name alice_wallet
+ 1631  cleos wallet private_keys
+ 1632  cleos wallet private_keys --name bob_wallet
+ 1633  cleos wallet private_keys --name alice_wallet
+ 1634  cleos create account eosio bob
+ 1635  cleos create account eosio bob PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1636  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1637  cleos
+ 1638  cleos get
+ 1639  cleos get accounts
+ 1640  cleos get accounts EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1641  cleos get account
+ 1642  cleos get account bob
+ 1643  cleos get account eosio
+ 1644  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1645  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1646  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1647  cleos wallet --name bob_wallet unlock
+ 1648  cleos wallet unlock --name bob_wallet
+ 1649  cleos wallet lock --name bob_wallet
+ 1650  cleos wallet unlock --name bob_wallet
+ 1651  cleos wallet list
+ 1652  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1653  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1654  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV  EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1655  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1656  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+ 1657  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3  EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1658  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1659  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1660  cleos wallet imoprt
+ 1661  cleos wallet import
+ 1662  cleos wallet create
+ 1663  cleos wallet create --to-console
+ 1664  cleos wallet list
+ 1665  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1666  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1667  cleos wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+ 1668  cleos wallet import
+ 1669  cleos wallet import --name bob_wallet
+ 1670  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1671  cleos wallet list
+ 1672  cleos wallet keys
+ 1673  cleos wallet private_keys
+ 1674  cleos wallet private_keys --name bob_wallet
+ 1675  cleos wallet private_keys --name alice_wallet
+ 1676  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1677  cleos create account eosio alice EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1678  cleos wallet private_keys --name alice_wallet
+ 1679  cleos get account bob
+ 1680  cleos get account alice
+ 1681  cleos create account eosio alice2 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1682  cleos get account alice2
+ 1683  cleos --help
+ 1684  cleos create account eosio alice2 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1685  cleos create account eosio alice3 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1686  cleos get account alice3
+ 1687  cd ..
+ 1688  ls
+ 1689  cd smart_contracts
+ 1690  mkdir smart_contracts
+ 1691  cd smart_contracts
+ 1692  mkdir hello
+ 1693  cd hello/
+ 1694  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1695  cleos wallet list
+ 1696  cleos wallet unlock --name alice_Wallet
+ 1697  cleos wallet unlock --name alice_wallet
+ 1698  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1699  cleos create
+ 1700  cleos create account
+ 1701  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1702  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1703  cleos set contract alice3 EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e /d/blockchain/eos/contracts/smart_contracts/hello
+ 1704  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1705  cleos set contract
+ 1706  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1707  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1708  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1709  cleos set contract alice /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1710  cleos get account alice3
+ 1711  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV@active
+ 1712  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1713  cleos get account alice
+ 1714  cleos get account alice2
+ 1715  cleos set contract alice2 /d/blockchain/eos/contracts/smart_contracts/hello -p alice2@active
+ 1716  cleos push action hello hi '["bob"]'
+ 1717  cleos push action hello hi '["bob"]' -p bob@active
+ 1718  cleos push action alice hi '["bob"]' -p bob@active
+ 1719  cleos push action alice hi '["bob"]'
+ 1720  cleos push action alice hi '["bob"]' -p alice2@active
+ 1721  cleos push action alice hi '["bob"]' -p a@active
+ 1722  cleos push action alice hi '["bob"]' -p alice2@active
+ 1723  cleos wallet list
+ 1724  cleos wallet unlock bob_wallet PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1725  cleos wallet unlock bob_wallet -password PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1726  cleos wallet unlock --name bob_wallet --password PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1727  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1728  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1729  cleos push action hi '["alice"]' -p bob@active
+ 1730  cleos push action bob hi '["alice"]' -p bob@active
+ 1731  cleos push action bob hi '["alice"]' -p eosio@active
+ 1732  cleos push action bob hi '["alice"]' -p alice@active
+ 1733  cleos push action bob hi '["alice"]' -p alice3@active
+ 1734  cleos wallet list
+ 1735  cleos wallet unloack -n bob_wallet
+ 1736  cleos wallet unlock -n bob_wallet
+ 1737  cleos push action bob hi '["alice"]' -p alice3@active
+ 1738  cleos push action bob hi '["alice"]' -p alice3@active --return-packed
+ 1739  cleos push action bob hi '["alice"]' -d -p alice3@active --return-packed
+ 1740  cleos push action bob hi '["alice"]' -d -p alice3 --return-packed
+ 1741  cleos wallet list
+ 1742  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1743  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1744  cleos wallet unlock -n bob_wallet
+ 1745  cleos --help
+ 1746  cleos get account
+ 1747  cleos get account bob
+ 1748  cleos push action bob hi '["bob"]' -p bob
+ 1749  cleos push action bob hi '["alice"]' -p bob
+ 1750  cleos push action bob hi '["alice"]' -p eosio
+ 1751  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1752  cleos push action bob hi '["alice"]' -p eosio
+ 1753  cleos push action bob hi '["alice"]' -p bob
+ 1754  cleos push action bob hi '["bob"]' -p bob
+ 1755  cleos push action alice hi '["bob"]' -p bob
+ 1756  cleos wallet list
+ 1757  cleos get account bob
+ 1758  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1759  cleos wallet list
+ 1760  cleos wallet create --name bob_wallet --to-console
+ 1761  cleos wallet list
+ 1762  cleos wallet unlock -n bob_Wallet
+ 1763  cleos wallet create --name bob_wallet --to-console
+ 1764  cleos wallet unlock -n bob_Wallet
+ 1765  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1766  ls
+ 1767  gcc scheduler.c -o scheduler
+ 1768  ls
+ 1769  ./scheduler
+ 1770  gcc scheduler.c -o scheduler
+ 1771  ./scheduler
+ 1772  gcc scheduler.c -o scheduler
+ 1773  ./scheduler
+ 1774  gcc scheduler.c -o scheduler
+ 1775  ./scheduler
+ 1776  gcc scheduler.c -o scheduler
+ 1777  ./scheduler
+ 1778  gcc scheduler.c -o scheduler
+ 1779  ./scheduler
+ 1780  gcc scheduler.c -o scheduler
+ 1781  ./scheduler
+ 1782  gcc scheduler.c -o scheduler
+ 1783  ./scheduler
+ 1784  gcc scheduler.c -o scheduler
+ 1785  ./scheduler
+ 1786  gcc scheduler.c -o scheduler
+ 1787  ./scheduler
+ 1788  gcc scheduler.c -o scheduler
+ 1789  ./scheduler
+ 1790  gcc scheduler.c -o scheduler
+ 1791  ./scheduler
+ 1792  gcc scheduler.c -o scheduler
+ 1793  ./scheduler
+ 1794  gcc scheduler.c -o scheduler
+ 1795  ./scheduler
+ 1796  gcc scheduler.c -o scheduler
+ 1797  ./scheduler
+ 1798  gcc scheduler.c -o scheduler
+ 1799  ./scheduler
+ 1800  gcc scheduler.c -o scheduler
+ 1801  ./scheduler
+ 1802  gcc scheduler.c -o scheduler
+ 1803  ./scheduler
+ 1804  gcc scheduler.c -o scheduler
+ 1805  ./scheduler
+ 1806  roscore
+ 1807  roscore
+ 1808  vi ~/.bashrc
+ 1809  source ~/.bashrc
+ 1810  roscore
+ 1811  export display=:0.0
+ 1812  gedit
+ 1813  export display=localhost:0.0
+ 1814  gedit
+ 1815  export display=localhost:0.0
+ 1816  gedit
+ 1817  export DISPLAY=localhost:0.0
+ 1818  gedit
+ 1819  exit
+ 1820  ifconfig
+ 1821  sudo ip addr show docker0
+ 1822  sudo ip addr show thirsty_merkle
+ 1823  iptables --list
+ 1824  sudo apt-get update
+ 1825  sudo apt-get install iptables
+ 1826  sudo apt-get install iptable
+ 1827  sudo apt-get install iptables
+ 1828  sudo apt-get update iptables
+ 1829  sudo apt-get upgrade iptables
+ 1830  rosrun master_sync_fkie master_sync
+ 1831  roscore
+ 1832  exit
+ 1833  python3
+ 1834  exit
+ 1835  pip3 install timeit
+ 1836  python3
+ 1837  sudo apt install python3
+ 1838  sudo apt install python3.7
+ 1839  python3 -V
+ 1840  python3.7 -V
+ 1841  python3.7
+ 1842  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+ 1843  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+ 1844  sudo update-alternatives --config python3
+ 1845  python3 -V
+ 1846  python3
+ 1847  exit
+ 1848  python3
+ 1849  python3
+ 1850  pip3 install rsa
+ 1851  curl
+ 1852  curl --help
+ 1853  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1854  ls
+ 1855  uvicorn serverRSA:app --reload
+ 1856  pipe install uvicorn
+ 1857  pip3 install uvicorn
+ 1858  uvicorn serverRSA:app --reload
+ 1859  uvicorn serverRSA:app --port 8090
+ 1860  pip3 install fastapi
+ 1861  uvicorn serverRSA:app --port 8090
+ 1862  pip3 install tinydb
+ 1863  uvicorn serverRSA:app --port 8090
+ 1864  cd db
+ 1865  vi serverdbRSA.json
+ 1866  cd ..
+ 1867  uvicorn serverRSA:app --port 8090
+ 1868  pip3 install python-multipart
+ 1869  uvicorn serverRSA:app --port 8090
+ 1870  pip3 install python-multipart
+ 1871  pip3 install tinydb
+ 1872  pip3 install fastapi
+ 1873  pip3 install uvicorn
+ 1874  pip3
+ 1875  pip3 -V
+ 1876  sudo apt-get install uvicorn
+ 1877  uvicorn serverRSA:app --port 8090
+ 1878  pip3 install uvicorn
+ 1879  pip3 install scrapy
+ 1880  sudo apt-get install python3.7-dev
+ 1881  pip3 install uvicorn
+ 1882  uvicorn serverRSA:app --port 8090
+ 1883  pip3 install rsa
+ 1884  uvicorn serverRSA:app --port 8090
+ 1885  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1886  uvicorn serverRSA:app --port 8090
+ 1887  uvicorn server:app --port 8090
+ 1888  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1889  python3 clientRSA.py
+ 1890  python3
+ 1891  pip3 install guppy
+ 1892  pip3 install pandas
+ 1893  pip3 install matplotlib
+ 1894  python3 visual.py 
+ 1895  pip3 install apt_pkg
+ 1896  python3 visual.py 
+ 1897  pip3 install PIL
+ 1898  pip3 install pillow
+ 1899  python3 visual.py 
+ 1900  export DISPLAY=:0.0
+ 1901  gedit
+ 1902  python3 visual.py 
+ 1903  sudo apt-get install python3-tk
+ 1904  python3 visual.py 
+ 1905  python3
+ 1906  cd '/c/Users/sacin/OneDrive/Documents/bits/E
+ 1907  EE F411 IOT/project/rsa code'
+ 1908  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1909  pytnon3
+ 1910  python3
+ 1911  exit
+ 1912  python3 visual.py 
+ 1913  export DISPLAY=:0.0
+ 1914  gedit
+ 1915  python3 visual.py 
+ 1916  ubuntu
+ 1917  openssl
+ 1918  openssl --help
+ 1919  openssl help
+ 1920  openssl ssh-keygen
+ 1921  ssh-keygen
+ 1922  exit
+ 1923  python3
+ 1924  exit
+ 1925  scp 
+ 1926  scp tmp.txt pi@192.168.0.15~/iot-ecc/
+ 1927  scp tmp.txt pi@192.168.0.15~/iot-ecc/tmp.txt
+ 1928  scp tmp.txt pi@192.168.0.15:~/iot-ecc/tmp.txt
+ 1929  gedit
+ 1930  export DISPLAY=:0.0
+ 1931  gedit
+ 1932  export DISPLAY=192.168.0.15:0.0
+ 1933  exit
+ 1934  ls
+ 1935  cd desk
+ 1936  cd Desktop/
+ 1937  ls
+ 1938  cd ..
+ 1939  cd ,,
+ 1940  cd ..
+ 1941  ls
+ 1942  cd c
+ 1943  ls
+ 1944  cd Users/
+ 1945  cd Sacin
+ 1946  ls
+ 1947  cd OneDrive/
+ 1948  cd Desktop/
+ 1949  cd tmp
+ 1950  ls
+ 1951  pip3 install flask_session
+ 1952  python3 main-script.py 
+ 1953  scp memoryFile_prover.txt  192.168.0.15@pi~/iot-ecc/mem.txt
+ 1954  scp memoryFile_prover.txt  192.168.0.15@pi:~/iot-ecc/mem.txt
+ 1955  scp -Y memoryFile_prover.txt  192.168.0.15@pi:~/iot-ecc/mem.txt
+ 1956  scp memoryFile_prover.txt  pi@192.168.0.15:~/iot-ecc/mem.txt
+ 1957  scp memoryFile_prover.txt  pi@192.168.0.14:~/iot-ecc/mem.txt
+ 1958  export DISPLAY=:0.0
+ 1959  python3 visualize.py 
+ 1960  python3 visualRSA.py 
+ 1961  python3
+ 1962  exit
+ 1963  nodeos
+ 1964  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1965  ls
+ 1966  cd eosio-wallet/
+ 1967  ls
+ 1968  cd ..
+ 1969  cd node_modules/
+ 1970  ls
+ 1971  cd ..
+ 1972  ls
+ 1973  cd eosio-wallet/
+ 1974  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1975  cd ..
+ 1976  ls
+ 1977  cd ..
+ 1978  ls
+ 1979  cd d
+ 1980  ls
+ 1981  cd blockchain/
+ 1982  ls
+ 1983  cd eos/
+ 1984  ls
+ 1985  cd contracts/
+ 1986  ls
+ 1987  cd nodeos/
+ 1988  ls
+ 1989  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1990  keosd
+ 1991  exit
+ 1992  cleos
+ 1993  cleos wallet list
+ 1994  docker images
+ 1995  cleos get account
+ 1996  cleos get account name bob
+ 1997  cleos get account alice
+ 1998  cleos wallet list
+ 1999  exit
+ 2000  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 2001  cleos wallet bob_wallet keys
+ 2002  cleos wallet keys
+ 2003  cleos wallet unlock
+ 2004  cleos wallet unlock --name bob_wallet
+ 2005  cleos wallet list
+ 2006  cleos wallet unlock
+ 2007  cleos wallet list
+ 2008  cleos get account bob
+ 2009  cleos get account list
+ 2010  nodeos --help
+ 2011  cleos get account list
+ 2012  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 2013  pkill nodeos
+ 2014  pkill keosd
+ 2015  pkill nodeos
+ 2016  cleos wallet list
+ 2017  cleos get account bob
+ 2018  cleos get account alice
+ 2019  cleos wallet list
+ 2020  cleos get account alice
+ 2021  cleos get account bob
+ 2022  cleos get contract alice
+ 2023  cleos get actions alice
+ 2024  cleos get contract alice
+ 2025  cleos get block
+ 2026  cleos get accounts
+ 2027  cleos get currency
+ 2028  cleos get currency balance
+ 2029  cleos get currency balance eosio.token alice
+ 2030  cleos push action eosio.token issue '["alice","1.00 SYS","tmp memo"]' -p alice@active
+ 2031  cleos wallet unlock --name alice_wallet
+ 2032  cleos push action eosio.token issue '["alice","1.00 SYS","tmp memo"]' -p alice@active
+ 2033  cleos push action eosio.token issue '["alice","1.0000 SYS","tmp memo"]' -p alice@active
+ 2034  cleos get currency balance eosio.token alice
+ 2035  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p alice@active
+ 2036  cleos wallet list
+ 2037  cleos wallet unlock
+ 2038  cleos push action eosio.token create '["eosio","10000.0000 INR"]' -p eosio@active
+ 2039  cleos push action eosio.token create '["eosio","10000.0000 INR"]' -p eosio.token@active
+ 2040  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p alice@active
+ 2041  cleos push action eosio.token create '["alice","10000.0000 INR"]' -p eosio.token@active
+ 2042  cleos push action eosio.token issue '["eosio","1.0000 INR","tmp memo"]' -p alice@active
+ 2043  cleos push action eosio.token issue '["eosio","1.0000 INR","tmp memo"]' -p eosio@active
+ 2044  cleos get currency balance eosio
+ 2045  cleos get currency balance eosio.token eosio
+ 2046  cleos push action eosio.token transfer '["eosio","alice","1.0000 INR","init transfer"]' -p eosio@active
+ 2047  cleos get currency balance eosio.token eosio
+ 2048  cleos get currency balance eosio.token alice
+ 2049  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p alice@active
+ 2050  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p eosio@active
+ 2051  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p eosio.token@active
+ 2052  cleos push action eosio.token create '["alice","10000.0000 INR"]' -p eosio.token@active
+ 2053  cleos push action eosio.token issue '["eosio","1.0000 INR","tmp memo"]' -p eosio@active
+ 2054  cleos system listproducers
+ 2055  cleos system listproducers -l 20
+ 2056  cleos get info
+ 2057  cleos wallet list
+ 2058  cleos wallet unlock --name alice_wallet
+ 2059  cleos wallet list
+ 2060  cleos wallet unlock --name alice_wallet
+ 2061  cleos wallet list
+ 2062  cleos get account alice
+ 2063  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j
+ 2064  cleos convert
+ 2065  cleos convert pack_transaction
+ 2066  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j | cleos convert pack_transaction
+ 2067  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j > cleos convert pack_transaction
+ 2068  cleos get transaction 5e07985f9a574f925023c852526381e92b783f092e9380163b70de42d890bf36
+ 2069  cleos get table eosio.token eosio accounts
+ 2070  cleos get table eosio.token alice accounts
+ 2071  ls
+ 2072  cd ..
+ 2073  ls
+ 2074  cd c
+ 2075  cd Users/
+ 2076  cd sacin/
+ 2077  ls
+ 2078  cd OneDrive/
+ 2079  ls
+ 2080  cd Desktop/
+ 2081  history > commands.txt
