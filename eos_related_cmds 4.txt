@@ -1,0 +1,1000 @@
+ 1008  cleos wallet close
+ 1009  cleos wallet lock
+ 1010  cleos wallet list
+ 1011  cleos wallet open
+ 1012  cleos wallet stop
+ 1013  cleos wallet list
+ 1014  cleos wallet open
+ 1015  cleos wallet list
+ 1016  cleos wallet unlock
+ 1017  PW5JsywcowQF74onks9WMemv18MZsF7zTY415i1V8YQxRxXiwsDAu
+ 1018  cleos wallet unlock
+ 1019  cleos wallet list
+ 1020  cleos wallet create_key
+ 1021  cleos wallet list
+ 1022  cleos wallet import
+ 1023  cleos wallet list
+ 1024  cleos wallet
+ 1025  cleos wallet keys
+ 1026  cleos wallet privete_keys
+ 1027  cleos wallet private_keys
+ 1028  cleos wallet list
+ 1029  cleos create account eosio bob
+ 1030  cleos create account eosio bob EOS7xo9hr41k2AqUYnUKw3nuBEVgfcX91eLU6XLpoasTSBpwLg9ai
+ 1031  cleos wallet list
+ 1032  cleos wallet
+ 1033  cleos wallet create --name bob_wallet
+ 1034  cleos wallet create --name bob_wallet --to-console
+ 1035  cleos wallet list
+ 1036  cleos wallet bob_wallet keys
+ 1037  cleos wallet
+ 1038  cleos wallet keys
+ 1039  cleos wallet list
+ 1040  cleos wallet bob_wallet create_key
+ 1041  cleos wallet --name bob_wallet create_key
+ 1042  cleos wallet create_key  --name bob_wallet
+ 1043  cleos wallet list
+ 1044  cleos wallet keys
+ 1045  cleos wallet create --name alice_wallet --to-console
+ 1046  cleos wallet --name alice_wallet create_key
+ 1047  cleos wallet create_key  --name alice_wallet
+ 1048  cleos wallet private_keys
+ 1049  cleos wallet private_keys --name bob_wallet
+ 1050  cleos wallet private_keys --name alice_wallet
+ 1051  cleos create account eosio bob
+ 1052  cleos create account eosio bob PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1053  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1054  cleos
+ 1055  cleos get
+ 1056  cleos get accounts
+ 1057  cleos get accounts EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1058  cleos get account
+ 1059  cleos get account bob
+ 1060  cleos get account eosio
+ 1061  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1062  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1063  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1064  cleos wallet --name bob_wallet unlock
+ 1065  cleos wallet unlock --name bob_wallet
+ 1066  cleos wallet lock --name bob_wallet
+ 1067  cleos wallet unlock --name bob_wallet
+ 1068  cleos wallet list
+ 1069  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1070  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1071  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV  EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1072  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1073  cleos create account eosio bob EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+ 1074  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3  EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1075  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1076  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1077  cleos wallet imoprt
+ 1078  cleos wallet import
+ 1079  cleos wallet create
+ 1080  cleos wallet create --to-console
+ 1081  cleos wallet list
+ 1082  cleos create account eosio bob 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3 EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1083  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1084  cleos wallet import 5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3
+ 1085  cleos wallet import
+ 1086  cleos wallet import --name bob_wallet
+ 1087  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS5pPckDhbkXbdg7FT5FcYSudSZC9kM3ti5mkEX6GELuSkkFDSTA
+ 1088  cleos wallet list
+ 1089  cleos wallet keys
+ 1090  cleos wallet private_keys
+ 1091  cleos wallet private_keys --name bob_wallet
+ 1092  cleos wallet private_keys --name alice_wallet
+ 1093  cleos create account eosio bob EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1094  cleos create account eosio alice EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1095  cleos wallet private_keys --name alice_wallet
+ 1096  cleos get account bob
+ 1097  cleos get account alice
+ 1098  cleos create account eosio alice2 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1099  cleos get account alice2
+ 1100  cleos --help
+ 1101  cleos create account eosio alice2 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1102  cleos create account eosio alice3 EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1103  cleos get account alice3
+ 1104  cd ..
+ 1105  ls
+ 1106  cd smart_contracts
+ 1107  mkdir smart_contracts
+ 1108  cd smart_contracts
+ 1109  mkdir hello
+ 1110  cd hello/
+ 1111  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1112  cleos wallet list
+ 1113  cleos wallet unlock --name alice_Wallet
+ 1114  cleos wallet unlock --name alice_wallet
+ 1115  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1116  cleos create
+ 1117  cleos create account
+ 1118  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1119  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e
+ 1120  cleos set contract alice3 EOS6y9iuJiFYs1zHm6EMLpkVDfi6yyDVAu9CBZyKcvjNaUvip3E6e /d/blockchain/eos/contracts/smart_contracts/hello
+ 1121  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello
+ 1122  cleos set contract
+ 1123  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1124  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1125  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1126  cleos set contract alice /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1127  cleos get account alice3
+ 1128  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV@active
+ 1129  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1130  cleos get account alice
+ 1131  cleos get account alice2
+ 1132  cleos set contract alice2 /d/blockchain/eos/contracts/smart_contracts/hello -p alice2@active
+ 1133  cleos push action hello hi '["bob"]'
+ 1134  cleos push action hello hi '["bob"]' -p bob@active
+ 1135  cleos push action alice hi '["bob"]' -p bob@active
+ 1136  cleos push action alice hi '["bob"]'
+ 1137  cleos push action alice hi '["bob"]' -p alice2@active
+ 1138  cleos push action alice hi '["bob"]' -p a@active
+ 1139  cleos push action alice hi '["bob"]' -p alice2@active
+ 1140  cleos wallet list
+ 1141  cleos wallet unlock bob_wallet PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1142  cleos wallet unlock bob_wallet -password PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1143  cleos wallet unlock --name bob_wallet --password PW5J6xE6hzZzxF76eSHhbahyz7uUji2s2rRmcS7ubbNmAoxMjNpw5
+ 1144  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1145  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1146  cleos push action hi '["alice"]' -p bob@active
+ 1147  cleos push action bob hi '["alice"]' -p bob@active
+ 1148  cleos push action bob hi '["alice"]' -p eosio@active
+ 1149  cleos push action bob hi '["alice"]' -p alice@active
+ 1150  cleos push action bob hi '["alice"]' -p alice3@active
+ 1151  cleos wallet list
+ 1152  cleos wallet unloack -n bob_wallet
+ 1153  cleos wallet unlock -n bob_wallet
+ 1154  cleos push action bob hi '["alice"]' -p alice3@active
+ 1155  cleos push action bob hi '["alice"]' -p alice3@active --return-packed
+ 1156  cleos push action bob hi '["alice"]' -d -p alice3@active --return-packed
+ 1157  cleos push action bob hi '["alice"]' -d -p alice3 --return-packed
+ 1158  cleos wallet list
+ 1159  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1160  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1161  cleos wallet unlock -n bob_wallet
+ 1162  cleos --help
+ 1163  cleos get account
+ 1164  cleos get account bob
+ 1165  cleos push action bob hi '["bob"]' -p bob
+ 1166  cleos push action bob hi '["alice"]' -p bob
+ 1167  cleos push action bob hi '["alice"]' -p eosio
+ 1168  cleos set contract bob /d/blockchain/eos/contracts/smart_contracts/hello -p bob@active
+ 1169  cleos push action bob hi '["alice"]' -p eosio
+ 1170  cleos push action bob hi '["alice"]' -p bob
+ 1171  cleos push action bob hi '["bob"]' -p bob
+ 1172  cleos push action alice hi '["bob"]' -p bob
+ 1173  cleos wallet list
+ 1174  cleos get account bob
+ 1175  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1176  cleos wallet list
+ 1177  cleos wallet create --name bob_wallet --to-console
+ 1178  cleos wallet list
+ 1179  cleos wallet unlock -n bob_Wallet
+ 1180  cleos wallet create --name bob_wallet --to-console
+ 1181  cleos wallet unlock -n bob_Wallet
+ 1182  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1183  ls
+ 1184  gcc scheduler.c -o scheduler
+ 1185  ls
+ 1186  ./scheduler
+ 1187  gcc scheduler.c -o scheduler
+ 1188  ./scheduler
+ 1189  gcc scheduler.c -o scheduler
+ 1190  ./scheduler
+ 1191  gcc scheduler.c -o scheduler
+ 1192  ./scheduler
+ 1193  gcc scheduler.c -o scheduler
+ 1194  ./scheduler
+ 1195  gcc scheduler.c -o scheduler
+ 1196  ./scheduler
+ 1197  gcc scheduler.c -o scheduler
+ 1198  ./scheduler
+ 1199  gcc scheduler.c -o scheduler
+ 1200  ./scheduler
+ 1201  gcc scheduler.c -o scheduler
+ 1202  ./scheduler
+ 1203  gcc scheduler.c -o scheduler
+ 1204  ./scheduler
+ 1205  gcc scheduler.c -o scheduler
+ 1206  ./scheduler
+ 1207  gcc scheduler.c -o scheduler
+ 1208  ./scheduler
+ 1209  gcc scheduler.c -o scheduler
+ 1210  ./scheduler
+ 1211  gcc scheduler.c -o scheduler
+ 1212  ./scheduler
+ 1213  gcc scheduler.c -o scheduler
+ 1214  ./scheduler
+ 1215  gcc scheduler.c -o scheduler
+ 1216  ./scheduler
+ 1217  gcc scheduler.c -o scheduler
+ 1218  ./scheduler
+ 1219  gcc scheduler.c -o scheduler
+ 1220  ./scheduler
+ 1221  gcc scheduler.c -o scheduler
+ 1222  ./scheduler
+ 1223  roscore
+ 1224  roscore
+ 1225  vi ~/.bashrc
+ 1226  source ~/.bashrc
+ 1227  roscore
+ 1228  export display=:0.0
+ 1229  gedit
+ 1230  export display=localhost:0.0
+ 1231  gedit
+ 1232  export display=localhost:0.0
+ 1233  gedit
+ 1234  export DISPLAY=localhost:0.0
+ 1235  gedit
+ 1236  exit
+ 1237  ifconfig
+ 1238  sudo ip addr show docker0
+ 1239  sudo ip addr show thirsty_merkle
+ 1240  iptables --list
+ 1241  sudo apt-get update
+ 1242  sudo apt-get install iptables
+ 1243  sudo apt-get install iptable
+ 1244  sudo apt-get install iptables
+ 1245  sudo apt-get update iptables
+ 1246  sudo apt-get upgrade iptables
+ 1247  rosrun master_sync_fkie master_sync
+ 1248  roscore
+ 1249  exit
+ 1250  python3
+ 1251  exit
+ 1252  pip3 install timeit
+ 1253  python3
+ 1254  sudo apt install python3
+ 1255  sudo apt install python3.7
+ 1256  python3 -V
+ 1257  python3.7 -V
+ 1258  python3.7
+ 1259  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 1
+ 1260  sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 2
+ 1261  sudo update-alternatives --config python3
+ 1262  python3 -V
+ 1263  python3
+ 1264  exit
+ 1265  python3
+ 1266  python3
+ 1267  pip3 install rsa
+ 1268  curl
+ 1269  curl --help
+ 1270  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1271  ls
+ 1272  uvicorn serverRSA:app --reload
+ 1273  pipe install uvicorn
+ 1274  pip3 install uvicorn
+ 1275  uvicorn serverRSA:app --reload
+ 1276  uvicorn serverRSA:app --port 8090
+ 1277  pip3 install fastapi
+ 1278  uvicorn serverRSA:app --port 8090
+ 1279  pip3 install tinydb
+ 1280  uvicorn serverRSA:app --port 8090
+ 1281  cd db
+ 1282  vi serverdbRSA.json
+ 1283  cd ..
+ 1284  uvicorn serverRSA:app --port 8090
+ 1285  pip3 install python-multipart
+ 1286  uvicorn serverRSA:app --port 8090
+ 1287  pip3 install python-multipart
+ 1288  pip3 install tinydb
+ 1289  pip3 install fastapi
+ 1290  pip3 install uvicorn
+ 1291  pip3
+ 1292  pip3 -V
+ 1293  sudo apt-get install uvicorn
+ 1294  uvicorn serverRSA:app --port 8090
+ 1295  pip3 install uvicorn
+ 1296  pip3 install scrapy
+ 1297  sudo apt-get install python3.7-dev
+ 1298  pip3 install uvicorn
+ 1299  uvicorn serverRSA:app --port 8090
+ 1300  pip3 install rsa
+ 1301  uvicorn serverRSA:app --port 8090
+ 1302  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1303  uvicorn serverRSA:app --port 8090
+ 1304  uvicorn server:app --port 8090
+ 1305  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1306  python3 clientRSA.py
+ 1307  python3
+ 1308  pip3 install guppy
+ 1309  pip3 install pandas
+ 1310  pip3 install matplotlib
+ 1311  python3 visual.py 
+ 1312  pip3 install apt_pkg
+ 1313  python3 visual.py 
+ 1314  pip3 install PIL
+ 1315  pip3 install pillow
+ 1316  python3 visual.py 
+ 1317  export DISPLAY=:0.0
+ 1318  gedit
+ 1319  python3 visual.py 
+ 1320  sudo apt-get install python3-tk
+ 1321  python3 visual.py 
+ 1322  python3
+ 1323  cd '/c/Users/sacin/OneDrive/Documents/bits/E
+ 1324  EE F411 IOT/project/rsa code'
+ 1325  cd '/c/Users/sacin/OneDrive/Documents/bits/EEE F411 IOT/project/rsa code'
+ 1326  pytnon3
+ 1327  python3
+ 1328  exit
+ 1329  python3 visual.py 
+ 1330  export DISPLAY=:0.0
+ 1331  gedit
+ 1332  python3 visual.py 
+ 1333  ubuntu
+ 1334  openssl
+ 1335  openssl --help
+ 1336  openssl help
+ 1337  openssl ssh-keygen
+ 1338  ssh-keygen
+ 1339  exit
+ 1340  python3
+ 1341  exit
+ 1342  scp 
+ 1343  scp tmp.txt pi@192.168.0.15~/iot-ecc/
+ 1344  scp tmp.txt pi@192.168.0.15~/iot-ecc/tmp.txt
+ 1345  scp tmp.txt pi@192.168.0.15:~/iot-ecc/tmp.txt
+ 1346  gedit
+ 1347  export DISPLAY=:0.0
+ 1348  gedit
+ 1349  export DISPLAY=192.168.0.15:0.0
+ 1350  exit
+ 1351  ls
+ 1352  cd desk
+ 1353  cd Desktop/
+ 1354  ls
+ 1355  cd ..
+ 1356  cd ,,
+ 1357  cd ..
+ 1358  ls
+ 1359  cd c
+ 1360  ls
+ 1361  cd Users/
+ 1362  cd Sacin
+ 1363  ls
+ 1364  cd OneDrive/
+ 1365  cd Desktop/
+ 1366  cd tmp
+ 1367  ls
+ 1368  pip3 install flask_session
+ 1369  python3 main-script.py 
+ 1370  scp memoryFile_prover.txt  192.168.0.15@pi~/iot-ecc/mem.txt
+ 1371  scp memoryFile_prover.txt  192.168.0.15@pi:~/iot-ecc/mem.txt
+ 1372  scp -Y memoryFile_prover.txt  192.168.0.15@pi:~/iot-ecc/mem.txt
+ 1373  scp memoryFile_prover.txt  pi@192.168.0.15:~/iot-ecc/mem.txt
+ 1374  scp memoryFile_prover.txt  pi@192.168.0.14:~/iot-ecc/mem.txt
+ 1375  export DISPLAY=:0.0
+ 1376  python3 visualize.py 
+ 1377  python3 visualRSA.py 
+ 1378  python3
+ 1379  exit
+ 1380  nodeos
+ 1381  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1382  ls
+ 1383  cd eosio-wallet/
+ 1384  ls
+ 1385  cd ..
+ 1386  cd node_modules/
+ 1387  ls
+ 1388  cd ..
+ 1389  ls
+ 1390  cd eosio-wallet/
+ 1391  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1392  cd ..
+ 1393  ls
+ 1394  cd ..
+ 1395  ls
+ 1396  cd d
+ 1397  ls
+ 1398  cd blockchain/
+ 1399  ls
+ 1400  cd eos/
+ 1401  ls
+ 1402  cd contracts/
+ 1403  ls
+ 1404  cd nodeos/
+ 1405  ls
+ 1406  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1407  keosd
+ 1408  exit
+ 1409  cleos
+ 1410  cleos wallet list
+ 1411  docker images
+ 1412  cleos get account
+ 1413  cleos get account name bob
+ 1414  cleos get account alice
+ 1415  cleos wallet list
+ 1416  exit
+ 1417  python3 subscriber.py 
+ 1418  exit
+ 1419  pip3 install PyPubSub
+ 1420  python3 publisher.py
+ 1421  cd ssl_rest/
+ 1422  python3 server_rest.py 
+ 1423  exit
+ 1424  openssl --help
+ 1425  openssl help
+ 1426  openssl req -newkey rsa:2048 -nodes -keyout server.key -out server.csr
+ 1427  openssl x509 -signkey server.key -in server.csr -req -days 365 -out server.crt
+ 1428  openssl x509 -inform DER -in server.crt -out server.pem -text
+ 1429  openssl x509 -in server.crt -out server.pem -outform PEM
+ 1430  openssl req -newkey rsa:2048 -nodes -keyout server.key -out server.csr
+ 1431  openssl x509 -signkey server.key -in server.csr -req -days 365 -out server.crt
+ 1432  openssl x509 -in server.crt -out server.pem -outform PEM
+ 1433  openssl version
+ 1434  openssl req -newkey rsa:2048 -nodes -keyout client.key -out client.csr
+ 1435  openssl x509 -signkey client.key -in client.csr -req -days 365 -out client.crt
+ 1436  openssl x509 -in client.crt -out client.pem -outform PEM
+ 1437  openssl req -newkey rsa:2048 -nodes -keyout server.key -out server.csr
+ 1438  openssl x509 -signkey server.key -in server.csr -req -days 365 -out server.crt
+ 1439  openssl x509 -in server.crt -out server.pem -outform PEM
+ 1440  exit
+ 1441  cleos wallet list
+ 1442  cleos get account alice
+ 1443  keosd &
+ 1444  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1445  tail -f nodeos.log
+ 1446  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --hard-replay-blockchain --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1447  tail -f nodeos.log
+ 1448  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1449  tail -f nodeos.log
+ 1450  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1451  tail -f nodeos.log
+ 1452  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1453  tail -f nodeos.log
+ 1454  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1455  cleos wallet bob_wallet keys
+ 1456  cleos wallet keys
+ 1457  cleos wallet unlock
+ 1458  cleos wallet unlock --name bob_wallet
+ 1459  cleos wallet list
+ 1460  cleos wallet unlock
+ 1461  cleos wallet list
+ 1462  cleos get account bob
+ 1463  cleos get account list
+ 1464  nodeos --help
+ 1465  cleos get account list
+ 1466  nodeos -e -p eosio --plugin eosio::producer_plugin --plugin eosio::producer_api_plugin --plugin eosio::chain_api_plugin --plugin eosio::http_plugin --plugin eosio::history_plugin --plugin eosio::history_api_plugin --filter-on="*" --access-control-allow-origin='*' --contracts-console --http-validate-host=false --verbose-http-errors >> nodeos.log 2>&1 &
+ 1467  pkill nodeos
+ 1468  pkill keosd
+ 1469  pkill nodeos
+ 1470  cleos wallet list
+ 1471  cleos get account bob
+ 1472  cleos get account alice
+ 1473  cleos wallet list
+ 1474  cleos get account alice
+ 1475  cleos get account bob
+ 1476  cleos get contract alice
+ 1477  cleos get actions alice
+ 1478  cleos get contract alice
+ 1479  cleos get block
+ 1480  cleos get accounts
+ 1481  cleos get currency
+ 1482  cleos get currency balance
+ 1483  cleos get currency balance eosio.token alice
+ 1484  cleos push action eosio.token issue '["alice","1.00 SYS","tmp memo"]' -p alice@active
+ 1485  cleos wallet unlock --name alice_wallet
+ 1486  cleos push action eosio.token issue '["alice","1.00 SYS","tmp memo"]' -p alice@active
+ 1487  cleos push action eosio.token issue '["alice","1.0000 SYS","tmp memo"]' -p alice@active
+ 1488  cleos get currency balance eosio.token alice
+ 1489  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p alice@active
+ 1490  cleos wallet list
+ 1491  cleos wallet unlock
+ 1492  cleos push action eosio.token create '["eosio","10000.0000 INR"]' -p eosio@active
+ 1493  cleos push action eosio.token create '["eosio","10000.0000 INR"]' -p eosio.token@active
+ 1494  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p alice@active
+ 1495  cleos push action eosio.token create '["alice","10000.0000 INR"]' -p eosio.token@active
+ 1496  cleos push action eosio.token issue '["eosio","1.0000 INR","tmp memo"]' -p alice@active
+ 1497  cleos push action eosio.token issue '["eosio","1.0000 INR","tmp memo"]' -p eosio@active
+ 1498  cleos get currency balance eosio
+ 1499  cleos get currency balance eosio.token eosio
+ 1500  cleos push action eosio.token transfer '["eosio","alice","1.0000 INR","init transfer"]' -p eosio@active
+ 1501  cleos get currency balance eosio.token eosio
+ 1502  cleos get currency balance eosio.token alice
+ 1503  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p alice@active
+ 1504  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p eosio@active
+ 1505  cleos push action eosio.token issue '["alice","1.0000 INR","tmp memo"]' -p eosio.token@active
+ 1506  cleos push action eosio.token create '["alice","10000.0000 INR"]' -p eosio.token@active
+ 1507  cleos push action eosio.token issue '["eosio","1.0000 INR","tmp memo"]' -p eosio@active
+ 1508  cleos system listproducers
+ 1509  cleos system listproducers -l 20
+ 1510  cleos get info
+ 1511  cleos wallet list
+ 1512  cleos wallet unlock --name alice_wallet
+ 1513  cleos wallet list
+ 1514  cleos wallet unlock --name alice_wallet
+ 1515  cleos wallet list
+ 1516  cleos get account alice
+ 1517  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j
+ 1518  cleos convert
+ 1519  cleos convert pack_transaction
+ 1520  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j | cleos convert pack_transaction
+ 1521  cleos push action eosio.token issue '["alice", "100.0000 SYS", "memo"]' -p alice@active -d -j > cleos convert pack_transaction
+ 1522  cleos get transaction 5e07985f9a574f925023c852526381e92b783f092e9380163b70de42d890bf36
+ 1523  cleos get table eosio.token eosio accounts
+ 1524  cleos get table eosio.token alice accounts
+ 1525  ls
+ 1526  cd ..
+ 1527  ls
+ 1528  cd c
+ 1529  cd Users/
+ 1530  cd sacin/
+ 1531  ls
+ 1532  cd OneDrive/
+ 1533  ls
+ 1534  cd Desktop/
+ 1535  history > commands.txt
+ 1536  cleos push action hello hi '["bob"]'
+ 1537  cleos push action hello hi '["bob"]' -p bob@active
+ 1538  cleos get contract
+ 1539  cleos get account alice3
+ 1540  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1541  cleos wallet unlock -n alice
+ 1542  cleos wallet unlock -n alice_wallet
+ 1543  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1544  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1545  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV@active
+ 1546  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1547  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1548  cleos get account alice3
+ 1549  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1550  cleos wallet unlock
+ 1551  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1552  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1553  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1554  cleos push action hello hi '["bob"]' -p bob@active
+ 1555  cleos push action alice3 hi '["alice"]' -p alice@active
+ 1556  cleos push action alice3 hi '["alice"]' -p alice3@active
+ 1557  cleos push action alice3 hi '["alice2"]' -p alice@active
+ 1558  cleos push action alice3 hi '["alice3"]' -p alice@active
+ 1559  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1560  cleos push action alice3 hi '["alice"]' -p alice@active
+ 1561  cleos push action alice3 hi '["alice"]' -p alice@active -d
+ 1562  cleos push action alice3 hi '["alice"]' -p alice@active
+ 1563  cleos get table eosio.token alice accounts
+ 1564  cleos get table hello alice accounts
+ 1565  cleos get table hello alice3 accounts
+ 1566  cleos get table eosio.token alice3 accounts
+ 1567  cleos get table hello alice accounts
+ 1568  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1569  cleos wallet unlock -n alice_wallet
+ 1570  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1571  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice@active
+ 1572  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eos@active
+ 1573  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1574  cleos wallet unlock
+ 1575  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p eosio@active
+ 1576  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1577  cleos push action alice3 hi '["alice"]' -p alice@active
+ 1578  cleos get table hello alice3 baltable
+ 1579  cleos get table hello alice3 baltables
+ 1580  cleos get table hello alice3 bal_table
+ 1581  cleos get table hello alice3 baltable
+ 1582  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1583  cleos get table hello alice3 baltable
+ 1584  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1585  cleos wallet unlock
+ 1586  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1587  cleos get table hello alice3 baltable
+ 1588  cleos push action alice3 hi '["alice"]' -p alice@active -d
+ 1589  cleos push action alice3 hi '["alice"]' -p alice3@active -d
+ 1590  cleos push action alice3 hi '["alice"]' -p alice3@active
+ 1591  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1592  cleos get table hello alice3 baltable
+ 1593  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1594  cleos get table hello alice3 baltable
+ 1595  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1596  cleos get table hello alice3 baltable
+ 1597  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1598  cleos get table hello alice3 baltable
+ 1599  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1600  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1601  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1602  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1603  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1604  cleos get table hello alice3 baltable
+ 1605  cleos get account alice3
+ 1606  cleos get table alice3 baltable
+ 1607  cleos get table hello alice3 baltable
+ 1608  cleos get table hello baltable
+ 1609  cleos get table alice3 hello baltable
+ 1610  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1611  cleos get table alice3 hello baltable
+ 1612  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1613  cleos get table alice3 hello baltable
+ 1614  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1615  cleos get table alice3 hello baltable
+ 1616  cleos get table hello alice3 baltable
+ 1617  cleos get table alice3 hello baltable
+ 1618  cleos get table alice3 alice3 baltable
+ 1619  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1620  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1621  cleos get table alice3 alice3 baltable
+ 1622  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1623  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1624  cleos get table alice3 alice3 baltable
+ 1625  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1626  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1627  cleos get table alice3 alice3 baltable
+ 1628  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1629  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1630  cleos get table alice3 alice3 baltable
+ 1631  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1632  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1633  cleos get table alice3 alice3 baltable
+ 1634  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1635  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1636  cleos get table alice3 alice3 baltable
+ 1637  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1638  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1639  cleos get table alice3 alice3 baltable
+ 1640  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1641  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1642  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1643  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1644  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1645  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1646  cleos get table alice3 alice3 baltable
+ 1647  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1648  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1649  cleos get table alice3 alice3 baltable
+ 1650  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1651  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1652  cleos get table alice3 alice3 baltable
+ 1653  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1654  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1655  cleos get table alice3 alice3 baltable
+ 1656  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/hello -p alice3@active
+ 1657  cleos push action alice3 hi '["alice3"]' -p alice3@active
+ 1658  cleos get table alice3 alice3 baltable
+ 1659  cleos wallet unlock
+ 1660  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/objshare -p alice3@active
+ 1661  cleos get table alice3 alice3 baltable
+ 1662  cleos push action alice3 transfer '["alice3"]' -p alice3@active
+ 1663  cleos push action objshare transfer '["alice3"]' -p alice3@active
+ 1664  cleos get account eosio.token
+ 1665  cleos push action eosio transfer '["alice3"]' -p alice3@active
+ 1666  cleos push action alice3 transfer '["alice"]' -p alice3@active
+ 1667  cleos push action alice3 transfer '["alice"]' -p alice@active
+ 1668  cleos get table alice3 eosio baltable
+ 1669  cleos get table eosio eosio baltable
+ 1670  cleos push action alice3 transfer '["eosio"]' -p eosio@active
+ 1671  cleos get table eosio eosio baltable
+ 1672  cleos get table alice3 eosio baltable
+ 1673  cleos push action alice3 transfer '["eosio"]' -p eosio@active
+ 1674  cleos get table alice3 eosio baltable
+ 1675  cleos get table eosio eosio baltable
+ 1676  cleos set contract objshare /d/blockchain/eos/contracts/smart_contracts/objshare --abi objshare.abi -p eosio@active
+ 1677  cleos set contract alice3 /d/blockchain/eos/contracts/smart_contracts/objshare -p alice3@active
+ 1678  cleos set contract eosio /d/blockchain/eos/contracts/smart_contracts/objshare -p eosio@active
+ 1679  cleos get table eosio eosio baltable
+ 1680  cleos get table eosio alice3 baltable
+ 1681  cleos get table alice3 alice3 baltable
+ 1682  cleos get table alice3 eosio baltable
+ 1683  cleos get table alice3 alice3 baltable
+ 1684  cleos push action eosio transfer '["alice3"]' -p alice3@active
+ 1685  cleos get table alice3 alice3 baltable
+ 1686  cleos push action eosio transfer '["alice3"]' -p alice3@active
+ 1687  cleos get table alice3 alice3 baltable
+ 1688  cleos get table eosio alice3 baltable
+ 1689  cleos get table alice3 eosio baltable
+ 1690  cleos get table eosio eosio baltable
+ 1691  cleos get table eosio alice3 baltable
+ 1692  cleos get table
+ 1693  cleos
+ 1694  cleos get table eosio alice3 baltable
+ 1695  cleos push action eosio transfer '["alice3"]' -p alice3@active
+ 1696  cleos push action alice3 transfer '["alice3"]' -p alice3@active
+ 1697  cleos get table eosio alice3 baltable
+ 1698  cleos get table alice3 alice3 baltable
+ 1699  cleos push action alice3 transfer '["eosio"]' -p eosio@active
+ 1700  cleos get table alice3 alice3 baltable
+ 1701  cleos get table alice3 eosio baltable
+ 1702  cleos get table eosio alice3 baltable
+ 1703  cleos push action eosio transfer '["eosio"]' -p eosio@active
+ 1704  cleos get table alice3 alice3 baltable
+ 1705  cleos
+ 1706  cleos create account eosio objshare.token
+ 1707  cleos create account eosio objshare.token EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1708  cleos create account eosio objshare.tkn EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
+ 1709  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p eosio@active
+ 1710  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1711  cleos get table alice3 objshare.tkn baltable
+ 1712  cleos get table objshare.tkn alice3 baltable
+ 1713  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1714  cleos get table objshare.tkn alice3 baltable
+ 1715  cleos get table objshare.tkn eosio baltable
+ 1716  cleos get table eosio objshare.tkn baltable
+ 1717  cleos get table objshare.tkn objshare.tkn baltable
+ 1718  cleos get scope
+ 1719  cleos get scope objshare
+ 1720  cleos get scope objshare.tkn
+ 1721  cleos get scope eosio
+ 1722  cleos get scope alice3
+ 1723  cleos get scope objshare.tkn
+ 1724  cleos get table objshare.tkn objshare.tkn baltable
+ 1725  cleos get table objshare.tkn global baltable
+ 1726  cleos get table objshare.tkn objshare baltable
+ 1727  cleos get table objshare.tkn objshare.tkn baltable
+ 1728  cleos push action objshare.tkn transfer '["alice3"]' -p alice3@active
+ 1729  cleos get table objshare.tkn objshare.tkn baltable
+ 1730  cleos get table eosio.token alice3 accounts
+ 1731  cleos get table alice3 eosio.token accounts
+ 1732  cleos get table eosio.token eosio.token accounts
+ 1733  cleos get table objshare.tkn objshare.tkn baltable
+ 1734  cleos get table objshare objshare.tkn baltable
+ 1735  cleos get table objshare.tkn objshare.tkn baltable
+ 1736  cleos get scope objshare.tkn
+ 1737  cleos get scope eosio.token
+ 1738  cleos get currency balance eosio.token alice SYS
+ 1739  cleos get table eosio.token alice accounts
+ 1740  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1741  cleos push action objshare.tkn transfer '["alice3"]' -p alice3@active
+ 1742  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1743  cleos get scope objshare.tkn
+ 1744  cleos get table objshare.tkn objshare.tkn baltable
+ 1745  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1746  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1747  cleos get table objshare.tkn objshare.tkn baltable
+ 1748  cleos get table objshare.tkn eosio baltable
+ 1749  cleos push action objshare.tkn transfer '["alice3"]' -p alice3@active
+ 1750  cleos get table objshare.tkn objshare.tkn baltable
+ 1751  cleos get table objshare.tkn eosio baltable
+ 1752  cleos get table objshare.tkn alice3 baltable
+ 1753  cleos get scope objshare.tkn
+ 1754  cleos get table objshare.tkn eosio baltable
+ 1755  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1756  cleos wallet unlock
+ 1757  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1758  cleos get table objshare.tkn eosio baltable
+ 1759  cleos push action objshare.tkn transfer '["alice3"]' -p alice3@active
+ 1760  cleos get table objshare.tkn eosio baltable
+ 1761  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1762  cleos wallet unlock
+ 1763  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1764  cleos get table objshare.tkn eosio baltable
+ 1765  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1766  cleos get table objshare.tkn eosio baltable
+ 1767  cleos push action objshare.tkn transfer '["eosio"]' -p eosio@active
+ 1768  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1769  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1770  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1771  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1772  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1773  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1774  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1775  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1776  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1777  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1778  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1779  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1780  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1781  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1782  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1783  cleos get table objshare.tkn eosio baltable
+ 1784  cleos get table objshare.tkn alice3 baltable
+ 1785  cleos wallet unlock
+ 1786  cleos get table objshare.tkn alice3 baltable
+ 1787  cleos get table objshare.tkn eosio baltable
+ 1788  cleos push action objshare.tkn transfer '["eosio","alice3","0.0001 INR","ha"]' -p eosio@active
+ 1789  cleos get table objshare.tkn eosio baltable
+ 1790  cleos push action objshare.tkn transfer '["eosio","a","0.0001 INR","ha"]' -p eosio@active
+ 1791  cleos get table objshare.tkn eosi baltable
+ 1792  cleos get table objshare.tkn eosio baltable
+ 1793  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1794  cleos wallet unlock
+ 1795  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1796  cleos get table objshare.tkn eosio baltable
+ 1797  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1798  cleos get table objshare.tkn eosio baltable
+ 1799  cleos get table objshare.tkn alice3 baltable
+ 1800  cleos push action objshare.tkn clearentries '["eosio"]' -p eosio@active
+ 1801  cleos get table objshare.tkn eosio baltable
+ 1802  cleos get table objshare.tkn alice3 baltable
+ 1803  cleos push action objshare.tkn clearentries '["alice3"]' -p alice3@active
+ 1804  cleos get table objshare.tkn alice3 baltable
+ 1805  cleos push action objshare.tkn issue '["eosio","1000.0000 INR"]' -p eosio@active
+ 1806  cleos get table objshare.tkn eosio baltable
+ 1807  cleos get table objshare.tkn alice3 baltable
+ 1808  cleos get table objshare.tkn objshare.tkm baltable
+ 1809  cleos get table objshare.tkn alice3 baltable
+ 1810  cleos push action objshare.tkn transfer '["eosio","alice3","10.0000 INR","ha",0]' -p eosio@active
+ 1811  cleos get table objshare.tkn alice3 baltable
+ 1812  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1813  cleos get table objshare.tkn eosio baltable
+ 1814  cleos push action objshare.tkn clearentries '["alice3"]' -p alice3@active
+ 1815  cleos push action objshare.tkn clearentries '["eosio"]' -p eosio@active
+ 1816  cleos push action objshare.tkn issue '["eosio","1000.0000 INR"]' -p eosio@active
+ 1817  cleos push action objshare.tkn transfer '["eosio","alice3","10.0000 INR","ha",0]' -p eosio@active
+ 1818  cleos get table objshare.tkn eosio baltable
+ 1819  cleos get table objshare.tkn alice3 baltable
+ 1820  cleos push action objshare.tkn transfer '["alice3","eosio","10.0000 INR","ha",1]' -p alice3@active
+ 1821  cleos get table objshare.tkn alice3 baltable
+ 1822  cleos get table objshare.tkn eosio baltable
+ 1823  cleos set contract objshare.tkn /d/blockchain/eos/contracts/smart_contracts/objshare -p objshare.tkn@active
+ 1824  cleos get table objshare.tkn alice3 baltable
+ 1825  cleos push action objshare.tkn clearentries '["alice3"]' -p alice3@active
+ 1826  cleos push action objshare.tkn transfer '["eosio","alice3","10.0000 INR","ha",0]' -p eosio@active
+ 1827  cleos get table objshare.tkn alice3 baltable
+ 1828  cleos get table objshare.tkn eosio baltable
+ 1829  cleos push action objshare.tkn transfer '["alice3","eosio","10.0000 INR","ha",1]' -p alice3@active
+ 1830  cleos get table objshare.tkn eosio baltable
+ 1831  cleos get table objshare.tkn alice3 baltable
+ 1832  cleos push action objshare.tkn transfer '["eosio","alice3","20.0000 INR","ha",0]' -p eosio@active
+ 1833  cleos push action objshare.tkn transfer '["eosio","alice3","40.0000 INR","ha 2",0]' -p eosio@active
+ 1834  cleos get table objshare.tkn eosio baltable
+ 1835  cleos get table objshare.tkn alice3 baltable
+ 1836  cleos push action objshare.tkn transfer '["alice3","eosio","40.0000 INR","ha 2",1]' -p alice3@active
+ 1837  cleos get table objshare.tkn alice3 baltable
+ 1838  cleos get table objshare.tkn eosio baltable
+ 1839  cleos push action objshare.tkn transfer '["alice3","eosio","20.0000 INR","ha",1]' -p alice3@active
+ 1840  cleos get table objshare.tkn alice3 baltable
+ 1841  cleos get table objshare.tkn eosio baltable
+ 1842  history > cmds.txt
+ 1843  cd ..
+ 1844  cd c
+ 1845  cd Users/
+ 1846  cd sacin/
+ 1847  cd ../../..
+ 1848  ls
+ 1849  cd d\blockchain\eos\contracts\smart_contracts\hello
+ 1850  cd 'd/blockchain/eos/contracts/smart_contracts/hello'
+ 1851  ls
+ 1852  eosio-cpp hello.cpp -o hello.wasm
+ 1853  eosio-cpp
+ 1854  eosio-cpp -help
+ 1855  eosio-cpp -version
+ 1856  eosio-cpp hello.cpp -o hello.wasm
+ 1857  cd ..
+ 1858  cd objshare/
+ 1859  eosio-cpp objshare.cpp -o objshare.wasm
+ 1860  ls
+ 1861  cd ..
+ 1862  ls
+ 1863  cd ..
+ 1864  ls
+ 1865  cd usr
+ 1866  ls
+ 1867  cd lib
+ 1868  ls
+ 1869  cd ..
+ 1870  ls
+ 1871  cd include/
+ 1872  ls
+ 1873  cd ..
+ 1874  ls
+ 1875  cd local
+ 1876  ls
+ 1877  cd include/
+ 1878  ls
+ 1879  cd ..
+ 1880  cd lib/
+ 1881  ls
+ 1882  cd ..
+ 1883  ls
+ 1884  cd ..
+ 1885  ls
+ 1886  cd opt
+ 1887  ls
+ 1888  cd containerd/
+ 1889  ls
+ 1890  cd ..
+ 1891  ls
+ 1892  locate 
+ 1893  locate eosio
+ 1894  locate eosiolib
+ 1895  cd usr
+ 1896  cd local/
+ 1897  cd bin/
+ 1898  ls
+ 1899  cd ..
+ 1900  ls
+ 1901  cd bin/
+ 1902  ls
+ 1903  cd eosio-cpp
+ 1904  cd ..
+ 1905  locate eos
+ 1906  cd ..
+ 1907  locate eos
+ 1908  ls
+ 1909  cd home
+ 1910  ls
+ 1911  cd sacin/
+ 1912  ls
+ 1913  cd Desktop/
+ 1914  ls
+ 1915  cd ..
+ 1916  ls
+ 1917  cd root/
+ 1918  sudo root
+ 1919  sudo cd root
+ 1920  cd
+ 1921  sudo cd root
+ 1922  cd sbin
+ 1923  ls
+ 1924  cd ..
+ 1925  sudo cd root
+ 1926  ls
+ 1927  cd sbin
+ 1928  ls
+ 1929  cd ..
+ 1930  ls
+ 1931  cd srv
+ 1932  ls
+ 1933  cd ..
+ 1934  cd var
+ 1935  ls
+ 1936  cd lib
+ 1937  ls
+ 1938  cd ..
+ 1939  ls
+ 1940  cd lo
+ 1941  cd local
+ 1942  ls
+ 1943  cd ..
+ 1944  cd opt
+ 1945  ls
+ 1946  cd ..
+ 1947  ls
+ 1948  cd ..
+ 1949  ls
+ 1950  cd tmp
+ 1951  ls
+ 1952  cd ..
+ 1953  ls
+ 1954  cd media
+ 1955  ls
+ 1956  cd ..
+ 1957  cd lib64
+ 1958  ls
+ 1959  cd ..
+ 1960  cd proc
+ 1961  ls
+ 1962  cd ..
+ 1963  cd run
+ 1964  ls
+ 1965  cd ..
+ 1966  cd etc
+ 1967  ls
+ 1968  cd ..
+ 1969  ls
+ 1970  cd dev
+ 1971  ls
+ 1972  cd ..
+ 1973  cd bin
+ 1974  ls
+ 1975  cd ..
+ 1976  ls
+ 1977  pkill nodeos
+ 1978  pkill keosd
+ 1979  pkill nodeos
+ 1980  pkill keosd
+ 1981  pkill nodeos
+ 1982  pkill keosd
+ 1983  cd ..
+ 1984  cd etc
+ 1985  ls
+ 1986  cd ..
+ 1987  python3
+ 1988  exit
+ 1989  openssl --help
+ 1990  openssl help
+ 1991  history
+ 1992  python3 server_rest.py 
+ 1993  python3 client_rest.py 
+ 1994  openssl req -newKey rsa:2048 -nodes -keyout server1.key -out server1.csr
+ 1995  openssl req -newkey rsa:2048 -nodes -keyout server1.key -out server1.csr
+ 1996  openssl x509 -signkey server1.key -in server1.csr -req -days 365 -out server1.crt
+ 1997  openssl x509 -inform -in server1.crt -out server1.pem -outform PEM
+ 1998  openssl x509 -in server1.crt -out server1.pem -outform PEM
+ 1999  exit
+ 2000  htop
+ 2001  cleos wallet
+ 2002  cleos account
+ 2003  cleos accoutn get objshare.tkn
+ 2004  cleos get account objshare.tkn
+ 2005  pkill nodeos
+ 2006  pkill keosd
+ 2007  history>"eos_related_cmds 4.txt"
